@@ -17,24 +17,25 @@ public class Slime : MonoBehaviour2D
 	public float INSPECTOR_STICKY_VOLUME = 10f;
 	
 	///<summary>
-	///inspectorからの参照用.StickyVertexを利用すること.
+	///inspectorからの参照用.StickyVertexCountを利用すること.
 	///</summary>
 	[SerializeField]
-	public int INSPECTOR_STICKY_VERTEXSIZE = 32;
+	public int INSPECTOR_STICKY_VERTEXCOUNT = 32;
 
 	public SlimeSticky slimeSticky{get; private set;}
-	public float Weight { get; set;}
-	public float StickyVolume { get{return slimeSticky.Volume;}	set{slimeSticky.Volume = value;}}
-	public float StickyVertex {	get{return slimeSticky.VertexSize;}}
+	public float Weight { get{return slimeSticky.Weight;} set{slimeSticky.Weight = value;}}
+	public float StickyVolume { get{return slimeSticky.Volume;} set{slimeSticky.Volume = value;}}
+	public float StickyVertexCount { get{return slimeSticky.VertexCount;}}
+	
+	public void Initialize(){
+		slimeSticky = GetComponent<SlimeSticky>();
+		slimeSticky.Initialize(this,INSPECTOR_STICKY_VOLUME,INSPECTOR_STICKY_VERTEXCOUNT,INSPECTOR_WEIGHT);
+
+		Weight = INSPECTOR_WEIGHT;
+	}
 	
 	void Awake()
 	{
 		Initialize();
-	}
-
-	public void Initialize(){
-		Weight = INSPECTOR_WEIGHT;
-		slimeSticky = transform.Find("Sticky").GetComponent<SlimeSticky>();
-		slimeSticky.Initialize(this);
 	}
 }
