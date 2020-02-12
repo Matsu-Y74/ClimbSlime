@@ -12,6 +12,8 @@ public class SlimeSticky : MonoBehaviour2D
 	public Slime Parent{get;private set;}
 	public float Volume {get;set;}
 	public int VertexCount{get;private set;}
+	public float Resilience{get; set;}
+	public float Viscosity{get; set;}
 	
 	///<summary>
 	///プロパティからの参照用.Weightを利用すること.
@@ -33,10 +35,12 @@ public class SlimeSticky : MonoBehaviour2D
 	Vector2[] points_hull;
 	protected SlimeStickyNode[] slimeStickyNode{get; private set;}
 
-	public void Initialize(Slime parent,float volume,int vertexcount,float weight){
+	public void Initialize(Slime parent,float volume,int vertexcount,float weight,float resilience,float viscosity){
 		Parent = parent;
 		Volume = volume;
 		VertexCount = vertexcount;
+		Resilience = resilience;
+		Viscosity = viscosity;
 
 		stickyHull = GetComponent<EdgeCollider2D>();
 		points_hull = new Vector2[VertexCount + 1];
@@ -60,10 +64,10 @@ public class SlimeSticky : MonoBehaviour2D
 		stickyHull.points = points_hull;
 
 		_Weight = weight;
-		for(int i = 0 ; i < VertexCount ; i++){
-			slimeStickyNode[i].Initialize(this, slimeStickyNode[(i + 1) % VertexCount],weight);
-		}
-		Utility_Parallel.IndexedSingleAction(slimeStickyNode,(p,i)=>p.Initialize(this, slimeStickyNode[(i + 1) % VertexCount],weight),VertexCount);
+		
+		Utility_Parallel.IndexedSingleAction(slimeStickyNode,(p,i) =>
+		p.Initialize(this, slimeStickyNode[(i - 1 + VertexCount) % VertexCount], slimeStickyNode[(i + 1) % VertexCount],weight),VertexCount);
+		Utility_Parallel.SingleAction(slimeStickyNode, n => n.LinkageInitialize() ,VertexCount);
 	}
 
 	private void FixedUpdate() {
@@ -74,9 +78,10 @@ public class SlimeSticky : MonoBehaviour2D
 		Vector2 delta = grav - Position2D;
 		transform.position = grav;
 
-		Utility_Parallel.SingleAction(slimeStickyNode,x=>x.Position2D -= delta,VertexCount);
+		Utility_Parallel.SingleAction(slimeStickyNode,x => x.Position2D -= delta,VertexCount);
 
 		points_hull = Utility_Parallel.SingleFunc(slimeStickyNode,p=>p.Position2D-Position2D);
 		stickyHull.points = points_hull;
+		Utility_Parallel.SingleAction(slimeStickyNode, n => n.Resilience(Resilience,Viscosity) ,VertexCount);
 	}
 }
