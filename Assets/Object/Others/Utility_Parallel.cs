@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Threading.Tasks;
 
 static class Utility_Parallel{	
-		public static TResult[] SingleFunc<TResult>(Func<TResult> f,int length){
+	public static TResult[] SingleFunc<TResult>(Func<TResult> f,int length){
 		TResult[] r = new TResult[length];
 		for(int i = 0; i < length ; i++) r[i] = f();
 		return r;

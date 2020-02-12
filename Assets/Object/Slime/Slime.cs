@@ -2,44 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class Slime : MonoBehaviour2D
 {
-	public Rigidbody2D rigidbody2D{get;private set;}
-
-	public SlimeCore slimeCore{get; private set;}
-	public SlimeSticky slimeSticky{get; private set;}
-
 	[SerializeField]
-	public float WEIGHT = 30;
-
-	[SerializeField]
-	public float CORE_RADIUS = 0.5f; 
-	public float CoreRadius {
-		get{return slimeCore.CoreRadius;}
-		set{slimeCore.CoreRadius = value;}
-	}
+	///<summary>
+	///inspectorからの参照用.Weightを利用すること.
+	///</summary>
+	public float INSPECTOR_WEIGHT = 30;
 	
+	///<summary>
+	///inspectorからの参照用.StickyVolumeを利用すること.
+	///</summary>
 	[SerializeField]
-	public float STICKY_VOLUME = 10f;
-	public float StickyVolume {
-		get{return slimeSticky.Volume;}
-		set{slimeSticky.Volume = value;}
-	}
+	public float INSPECTOR_STICKY_VOLUME = 10f;
+	
+	///<summary>
+	///inspectorからの参照用.StickyVertexを利用すること.
+	///</summary>
 	[SerializeField]
-	public int STICKY_VERTEX = 32;
-	public float StickyVertex {
-		get{return slimeSticky.VertexSize;}
-	}
+	public int INSPECTOR_STICKY_VERTEXSIZE = 32;
+
+	public SlimeSticky slimeSticky{get; private set;}
+	public float Weight { get; set;}
+	public float StickyVolume { get{return slimeSticky.Volume;}	set{slimeSticky.Volume = value;}}
+	public float StickyVertex {	get{return slimeSticky.VertexSize;}}
 	
 	void Awake()
 	{
-		rigidbody2D = GetComponent<Rigidbody2D>();
-		rigidbody2D.mass = WEIGHT;
+		Initialize();
+	}
 
-		slimeCore = transform.Find("Core").GetComponent<SlimeCore>();
-		slimeCore.Initialize(this);
-
+	public void Initialize(){
+		Weight = INSPECTOR_WEIGHT;
 		slimeSticky = transform.Find("Sticky").GetComponent<SlimeSticky>();
 		slimeSticky.Initialize(this);
 	}
