@@ -12,7 +12,7 @@ public class SlimeStickyNode : MonoBehaviour2D
 	public SlimeStickyNode PrevConnectTo{get;private set;}
 	public SlimeStickyNode NextConnectTo{get;private set;}
 	
-	public Rigidbody2D rigidbody2D{get;private set;}
+	public new Rigidbody2D rigidbody2D{get;private set;}
 	public float Weight { get{return rigidbody2D.mass;} set{rigidbody2D.mass = value;}}
 
 	public float Viscosity{get;set;}
