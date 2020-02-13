@@ -43,7 +43,7 @@ public class SlimeStickyNode : MonoBehaviour2D
 		z += (DefaultPosition.x * Parent.Right2D + DefaultPosition.y * Parent.Up2D - LocalPosition2D) ;
 		z += (PrevConnectTo.LocalPosition2D - LocalPosition2D) * ((PrevConnectTo.LocalPosition2D - LocalPosition2D).magnitude - Parent.NormalLength_NodeConnection);
 		z += (NextConnectTo.LocalPosition2D - LocalPosition2D) * ((NextConnectTo.LocalPosition2D - LocalPosition2D).magnitude - Parent.NormalLength_NodeConnection);
-
-		rigidbody2D.AddForce(Viscosity * z,ForceMode2D.Force);
+		
+		rigidbody2D.AddForce(z / Viscosity,ForceMode2D.Force);
 	}
 }
