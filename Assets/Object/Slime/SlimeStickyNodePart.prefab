@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918517181052728999}
   - component: {fileID: 918517181052728986}
-  - component: {fileID: 918517181052728997}
+  - component: {fileID: 687030566246321198}
   - component: {fileID: 8705128215810016979}
   - component: {fileID: 918517181052728996}
   m_Layer: 2
@@ -55,8 +55,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!233 &918517181052728997
-HingeJoint2D:
+--- !u!231 &687030566246321198
+SpringJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -68,17 +68,13 @@ HingeJoint2D:
   m_ConnectedRigidBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
+  m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
-  m_UseMotor: 1
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 1000000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
+  m_AutoConfigureDistance: 0
+  m_Distance: 1
+  m_DampingRatio: 1
+  m_Frequency: 0.01
 --- !u!58 &8705128215810016979
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -107,4 +103,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d96e1924353344ba3265cf3ebdb72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hingeJoint2D: {fileID: 0}
+  springJoint2D: {fileID: 0}

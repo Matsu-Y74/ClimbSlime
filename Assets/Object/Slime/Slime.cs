@@ -38,14 +38,18 @@ public class Slime : MonoBehaviour2D
 	public float Weight { get{return slimeSticky.Weight;} set{slimeSticky.Weight = value;}}
 	public float Resilience { get{return slimeSticky.Resilience;} set{slimeSticky.Resilience = value;}}
 	public float Viscosity { get{return slimeSticky.Viscosity;} set{slimeSticky.Viscosity = value;}}
-	public float StickyVolume { get{return slimeSticky.Volume;} set{slimeSticky.Volume = value;}}
+	public float StickyVolume { get{return slimeSticky.Volume;} }
 	public float StickyVertexCount { get{return slimeSticky.VertexCount;}}
 	
 	public void Initialize(){
 		slimeSticky = GetComponent<SlimeSticky>();
-		slimeSticky.Initialize(this,INSPECTOR_STICKY_VOLUME,INSPECTOR_STICKY_VERTEXCOUNT,INSPECTOR_WEIGHT,INSPECTOR_STICKY_RESILIENCE,INSPECTOR_STICKY_VISCOSITY);
-
-		Weight = INSPECTOR_WEIGHT;
+		slimeSticky.Initialize(
+			this,
+			INSPECTOR_STICKY_VERTEXCOUNT,
+			INSPECTOR_STICKY_VOLUME,
+			INSPECTOR_WEIGHT,
+			INSPECTOR_STICKY_RESILIENCE,
+			INSPECTOR_STICKY_VISCOSITY);
 	}
 	
 	void Awake()
