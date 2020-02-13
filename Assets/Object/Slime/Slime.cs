@@ -21,13 +21,7 @@ public class Slime : MonoBehaviour2D
 	///</summary>
 	[SerializeField]
 	public float INSPECTOR_STICKY_VOLUME = 10f;
-	
-	///<summary>
-	///inspectorからの参照用.Resilienceを利用すること.
-	///</summary>
-	[SerializeField]
-	public float INSPECTOR_STICKY_RESILIENCE = 1;
-	
+		
 	///<summary>
 	///inspectorからの参照用.Viscosityを利用すること.
 	///</summary>
@@ -36,7 +30,6 @@ public class Slime : MonoBehaviour2D
 
 	public SlimeSticky slimeSticky{get; private set;}
 	public float Weight { get{return slimeSticky.Weight;} set{slimeSticky.Weight = value;}}
-	public float Resilience { get{return slimeSticky.Resilience;} set{slimeSticky.Resilience = value;}}
 	public float Viscosity { get{return slimeSticky.Viscosity;} set{slimeSticky.Viscosity = value;}}
 	public float StickyVolume { get{return slimeSticky.Volume;} }
 	public float StickyVertexCount { get{return slimeSticky.VertexCount;}}
@@ -48,7 +41,6 @@ public class Slime : MonoBehaviour2D
 			INSPECTOR_STICKY_VERTEXCOUNT,
 			INSPECTOR_STICKY_VOLUME,
 			INSPECTOR_WEIGHT,
-			INSPECTOR_STICKY_RESILIENCE,
 			INSPECTOR_STICKY_VISCOSITY);
 	}
 	

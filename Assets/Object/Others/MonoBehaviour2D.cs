@@ -5,8 +5,12 @@ using UnityEngine;
 public class MonoBehaviour2D : MonoBehaviour
 {
 	public Vector2 Position2D{
-		get{ return new Vector2(transform.position.x,transform.position.y).normalized; }
+		get{ return new Vector2(transform.position.x,transform.position.y); }
 		set{ transform.position = new Vector3(value.x,value.y,0); }
+	}
+	public Vector2 LocalPosition2D{
+		get{ return new Vector2(transform.localPosition.x,transform.localPosition.y); }
+		set{ transform.localPosition = new Vector3(value.x,value.y,0); }
 	}
 	public Vector2 Right2D{
 		get{ return new Vector2(transform.right.x,transform.right.y).normalized; }
