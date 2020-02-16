@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Collider_Structure_Pipe_Underground_Multi_Entrance_Right
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 5cca2c6872529a644831f6659bd8eb5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5029973494c00946a8a2701b8d0921e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1

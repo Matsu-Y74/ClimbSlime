@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Collider_Structure_Pipe_Aerial_Multi_Intersection_Right
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: a181df1abcfb31d42be8e253e16929d9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d8f72f8e18ea884f88bec7de39c02ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1

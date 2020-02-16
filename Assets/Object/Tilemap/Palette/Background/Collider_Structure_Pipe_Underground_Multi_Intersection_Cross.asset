@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Collider_Structure_Pipe_Underground_Multi_Intersection_Cross
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: ecfabbae199a13645935f811de4edf3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 688144947a5d4ad4faabb6f9f0de040f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1
