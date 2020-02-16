@@ -43,6 +43,30 @@ public class SlimeSticky : MonoBehaviour2D
 		set{ _Weight = value; Utility_Parallel.SingleAction(slimeStickyNode,s => s.Weight = _Weight / VertexCount ,VertexCount); }
 	}
 	
+	public Vector2 Velocity
+	{
+		get{
+			Vector2 v = Vector2.zero;
+			foreach(var n in slimeStickyNode) v += n.rigidbody2D.velocity;
+			return v;
+		}
+	}
+	
+	int meanvelocitylog_max = 10;
+	LinkedList<Vector2> meanvelocitylog = new LinkedList<Vector2>();
+	public Vector2 MeanVelocity
+	{
+		get{
+			if(meanvelocitylog.Count == 0)
+				return Velocity;
+			else{
+				Vector2 v = Vector2.zero;
+				foreach(var x in meanvelocitylog) v += x;
+				return v / meanvelocitylog.Count;
+			}
+		}
+	}
+
 	EdgeCollider2D stickyHull;
 	Vector2[] points_hull;
 	public float NormalRadius{get;private set;}
@@ -79,7 +103,7 @@ public class SlimeSticky : MonoBehaviour2D
 		Viscosity = viscosity;
 	}
 
-	private void FixedUpdate() {
+	void FixedUpdate() {
 		Vector2[] newPos = Utility_Parallel.SingleFunc(slimeStickyNode,n => n.Position2D, VertexCount);
 
 		Vector2 gravityCenter = Vector2.zero;
@@ -88,5 +112,15 @@ public class SlimeSticky : MonoBehaviour2D
 		Utility_Parallel.SingleAction(slimeStickyNode,newPos,(n,p) => n.Position2D = p, VertexCount);
 
 		stickyHull.points = Utility_Parallel.SingleFunc(slimeStickyNode,n => n.LocalPosition2D);
+
+		meanvelocitylog.AddFirst(Velocity);
+		while(meanvelocitylog.Count > meanvelocitylog_max)meanvelocitylog.RemoveLast();
+	}
+	
+	public void AddForce(Vector2 force){
+		Utility_Parallel.SingleAction(slimeStickyNode,n => n.rigidbody2D.AddForce(force), VertexCount);
+	}
+	public void AddForce(Vector2 force,ForceMode2D mode){
+		Utility_Parallel.SingleAction(slimeStickyNode,n => n.rigidbody2D.AddForce(force,mode), VertexCount);
 	}
 }
