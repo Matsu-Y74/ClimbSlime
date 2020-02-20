@@ -428,7 +428,7 @@ static class Utility_Parallel{
 		catch(Exception e){throw e;}
 	}
 
-	public static void SingleAction<TResult>(Action f,int length){ for(int i = 0; i < length ; i++) f();
+	public static void SingleAction(Action f,int length){ for(int i = 0; i < length ; i++) f();
 	}
 	
 	public static void SingleAction<T>(T[] array, Action<T> f){
@@ -519,7 +519,7 @@ static class Utility_Parallel{
 	}
 
 
-	public static void IndexedSingleAction<TResult>(Action<int> f,int length){
+	public static void IndexedSingleAction(Action<int> f,int length){
 		for(int i = 0; i < length ; i++) f(i);
 	}
 	
@@ -611,7 +611,7 @@ static class Utility_Parallel{
 	}
 
 
-	public static void ParallelAction<TResult>(Action f,int length){
+	public static void ParallelAction(Action f,int length){
 		Parallel.For(0, length, i => f());
 	}
 	
@@ -703,7 +703,7 @@ static class Utility_Parallel{
 	}
 
 
-	public static void IndexedParallelAction<TResult>(Action<int> f,int length){
+	public static void IndexedParallelAction(Action<int> f,int length){
 		Parallel.For(0, length, i => f(i));
 	}
 	
