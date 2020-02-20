@@ -87,7 +87,7 @@ public class SlimeSticky : MonoBehaviour2D
 		
 		slimeStickyNode = Utility_Parallel.IndexedSingleFunc(points_hull,(n,i) => {
 			if(i != VertexCount){
-				GameObject obj = GameObject.Instantiate(prefab_SlimeStickyNode,n,Quaternion.identity,transform);
+				GameObject obj = GameObject.Instantiate(prefab_SlimeStickyNode,Position2D + n,Quaternion.identity,transform);
 				obj.name = $"{gameObject.name}_SlimeStickyNode{i}";
 				return obj.GetComponent<SlimeStickyNode>();
 			}
