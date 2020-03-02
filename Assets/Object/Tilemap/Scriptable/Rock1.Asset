@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e83bd3a0c07e34596e0e6b2c7ac6e7, type: 3}
   m_Name: Rock1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 6529909481953654932, guid: c2a96e8f24046ee408115942479a0982,
-    type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -137,7 +137,7 @@ public class InteractiveTile : Tile
 			tileData.transform = m;
 
 			tileData.flags = TileFlags.LockTransform;
-			tileData.colliderType = ColliderType.None;
+			tileData.colliderType = colliderType;
 		}
         else
         {
@@ -153,7 +153,7 @@ public class InteractiveTile : Tile
     [MenuItem("Assets/Create/InteractiveTile")]
     public static void CreateInteractiveTile()
     {
-        string path = EditorUtility.SaveFilePanelInProject("Save InteractiveTile", "New InteractiveTile", "Asset", "Save InteractiveTile", "Assets");
+        string path = EditorUtility.SaveFilePanelInProject("Save InteractiveTile", "New InteractiveTile", "Asset", "Save InteractiveTile", "Assets/Object/Tilemap/Scriptable");
         if (path == "")
             return;
     AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<InteractiveTile>(), path);
