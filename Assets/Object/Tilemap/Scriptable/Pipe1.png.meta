@@ -1,0 +1,2222 @@
+fileFormatVersion: 2
+guid: d86018e934d08d6449981fc05a280df8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6529909481953654932
+    second: Rock1_0
+  - first:
+      213: 8022566287833246668
+    second: Rock1_1
+  - first:
+      213: 598502787888000235
+    second: Rock1_2
+  - first:
+      213: -6929791577884791196
+    second: Rock1_3
+  - first:
+      213: -8619509277702430937
+    second: Rock1_4
+  - first:
+      213: 4604155841359436032
+    second: Rock1_5
+  - first:
+      213: 5556432626386691299
+    second: Rock1_6
+  - first:
+      213: -6293256439074835545
+    second: Rock1_7
+  - first:
+      213: 359254536512286027
+    second: Rock1_8
+  - first:
+      213: 704300344732119004
+    second: Rock1_9
+  - first:
+      213: 7551233388907987328
+    second: Rock1_10
+  - first:
+      213: 1832532414569250640
+    second: Rock1_11
+  - first:
+      213: -831451138724030215
+    second: Rock1_12
+  - first:
+      213: -7800161033495407524
+    second: Rock1_13
+  - first:
+      213: 7903228519282668592
+    second: Rock1_14
+  - first:
+      213: -2910721255668512063
+    second: Rock1_15
+  - first:
+      213: 1143631966022098977
+    second: Rock1_16
+  - first:
+      213: -1814471046577437442
+    second: Rock1_17
+  - first:
+      213: 8762170139769778118
+    second: Rock1_18
+  - first:
+      213: 8507540114149461955
+    second: Rock1_19
+  - first:
+      213: 949843443749952596
+    second: Rock1_20
+  - first:
+      213: 2912411993575355873
+    second: Rock1_21
+  - first:
+      213: 317963453869635288
+    second: Rock1_22
+  - first:
+      213: -6109735623725161921
+    second: Rock1_23
+  - first:
+      213: 8673792592080939620
+    second: Rock1_24
+  - first:
+      213: 3985487259964533777
+    second: Rock1_25
+  - first:
+      213: 4701760642620046262
+    second: Rock1_26
+  - first:
+      213: -3796966750079251608
+    second: Rock1_27
+  - first:
+      213: -7180672760637950318
+    second: Rock1_28
+  - first:
+      213: 200138015042887390
+    second: Rock1_29
+  - first:
+      213: 2947362250569571258
+    second: Rock1_30
+  - first:
+      213: 8422636204977894839
+    second: Rock1_31
+  - first:
+      213: 9169815520214658525
+    second: Rock1_32
+  - first:
+      213: 6876136935649807944
+    second: Rock1_33
+  - first:
+      213: -5058577663148710025
+    second: Rock1_34
+  - first:
+      213: -1749412307001955499
+    second: Rock1_35
+  - first:
+      213: 8928157307497023327
+    second: Rock1_36
+  - first:
+      213: -7172387398070047572
+    second: Rock1_37
+  - first:
+      213: -8210543835615386668
+    second: Rock1_38
+  - first:
+      213: -1963470124742943088
+    second: Rock1_39
+  - first:
+      213: -5569491946481748434
+    second: Rock1_40
+  - first:
+      213: 6311403746446852575
+    second: Rock1_41
+  - first:
+      213: -2323145818675064585
+    second: Rock1_42
+  - first:
+      213: -3947237503218495895
+    second: Rock1_43
+  - first:
+      213: -328413090745274640
+    second: Rock1_44
+  - first:
+      213: -3891720607445849443
+    second: Rock1_45
+  - first:
+      213: -5759331447124741639
+    second: Rock1_46
+  - first:
+      213: 3213540559237110519
+    second: Rock1_47
+  - first:
+      213: 3765465121168675341
+    second: Rock1_48
+  - first:
+      213: 1739402872635144790
+    second: Rock1_49
+  - first:
+      213: -6904645035458685004
+    second: Rock1_50
+  - first:
+      213: -6018702705816142212
+    second: Rock1_51
+  - first:
+      213: -7326830376867402952
+    second: Rock1_52
+  - first:
+      213: -5708969476111366032
+    second: Rock1_53
+  - first:
+      213: 4752523821810187330
+    second: Rock1_54
+  - first:
+      213: 4194574331773179259
+    second: Rock1_55
+  - first:
+      213: -5451297562221713430
+    second: Rock1_56
+  - first:
+      213: -8968455938682590165
+    second: Rock1_57
+  - first:
+      213: 766935615852284140
+    second: Rock1_58
+  - first:
+      213: -927276134098541163
+    second: Rock1_59
+  - first:
+      213: -7692535649372254417
+    second: Rock1_60
+  - first:
+      213: -3117006823983221256
+    second: Rock1_61
+  - first:
+      213: 59839492111767586
+    second: Rock1_62
+  - first:
+      213: -3958097644853735148
+    second: Rock1_63
+  - first:
+      213: 3687283413698579936
+    second: Rock1_64
+  - first:
+      213: -4485792577522484816
+    second: Rock1_65
+  - first:
+      213: 5615322772296661637
+    second: Rock1_66
+  - first:
+      213: 6141511767570309390
+    second: Rock1_67
+  - first:
+      213: -2592472805618851915
+    second: Rock1_68
+  - first:
+      213: 4407264263904477841
+    second: Rock1_69
+  - first:
+      213: 8796567916583387270
+    second: Rock1_70
+  - first:
+      213: 118829015555033948
+    second: Rock1_71
+  - first:
+      213: -8127605705500271575
+    second: Rock1_72
+  - first:
+      213: 4809246148361355384
+    second: Rock1_73
+  - first:
+      213: 6136089033195594098
+    second: Rock1_74
+  - first:
+      213: -2754610181496164389
+    second: Rock1_75
+  - first:
+      213: -7352834388889516323
+    second: Rock1_76
+  - first:
+      213: 5672095103770056396
+    second: Rock1_77
+  - first:
+      213: 4703434698699915326
+    second: Rock1_78
+  - first:
+      213: 4377501775881827617
+    second: Rock1_79
+  - first:
+      213: -3033232509377335113
+    second: Rock1_80
+  - first:
+      213: 8498088018200431431
+    second: Rock1_81
+  - first:
+      213: 3637025057578086994
+    second: Rock1_82
+  - first:
+      213: -124964781152333954
+    second: Rock1_83
+  - first:
+      213: -3144739547280765383
+    second: Rock1_84
+  - first:
+      213: 375779754904704452
+    second: Rock1_85
+  - first:
+      213: -2335386163544007350
+    second: Rock1_86
+  - first:
+      213: 5074697520170237686
+    second: Rock1_87
+  - first:
+      213: -5624936552354189447
+    second: Rock1_88
+  - first:
+      213: -6944661559470680827
+    second: Rock1_89
+  - first:
+      213: 7845331847011079977
+    second: Rock1_90
+  - first:
+      213: -7186024049083140091
+    second: Rock1_91
+  - first:
+      213: 1010512612758131389
+    second: Rock1_92
+  - first:
+      213: -7362393732103932397
+    second: Rock1_93
+  - first:
+      213: 7533674991530675988
+    second: Rock1_94
+  - first:
+      213: 9212556775857475571
+    second: Rock1_95
+  - first:
+      213: 2571449898653563944
+    second: Rock1_96
+  - first:
+      213: -1960602835983048486
+    second: Rock1_97
+  - first:
+      213: 8365540309137376599
+    second: Rock1_98
+  - first:
+      213: -7482674402146099926
+    second: Rock1_99
+  - first:
+      213: 2009571755902030135
+    second: Rock1_100
+  - first:
+      213: 5056707821102781825
+    second: Rock1_101
+  - first:
+      213: -8726880826868610669
+    second: Rock1_102
+  - first:
+      213: 1628560925101616233
+    second: Rock1_103
+  - first:
+      213: -186822095643386845
+    second: Rock1_104
+  - first:
+      213: 1493132917653094368
+    second: Rock1_105
+  - first:
+      213: 8032934431333539929
+    second: Rock1_106
+  - first:
+      213: 575167788181776528
+    second: Rock1_107
+  - first:
+      213: -1824336992916940381
+    second: Rock1_108
+  - first:
+      213: -3955794613658914849
+    second: Rock1_109
+  - first:
+      213: -5873192419622021105
+    second: Rock1_110
+  - first:
+      213: -1640547976877924476
+    second: Rock1_111
+  - first:
+      213: 2013706144664526407
+    second: Rock1_112
+  - first:
+      213: 7121620036931381746
+    second: Rock1_113
+  - first:
+      213: 4796730659625855636
+    second: Rock1_114
+  - first:
+      213: 7581287368984514171
+    second: Rock1_115
+  - first:
+      213: 3571423080983266996
+    second: Rock1_116
+  - first:
+      213: -8924233483890310198
+    second: Rock1_117
+  - first:
+      213: -4933945998736914914
+    second: Rock1_118
+  - first:
+      213: 4888204285956380935
+    second: Rock1_119
+  - first:
+      213: -4389525416906107578
+    second: Rock1_120
+  - first:
+      213: -5155475624665764299
+    second: Rock1_121
+  - first:
+      213: -3225276355237124455
+    second: Rock1_122
+  - first:
+      213: 610417745588935609
+    second: Rock1_123
+  - first:
+      213: -2898550765109695727
+    second: Rock1_124
+  - first:
+      213: -4742374621147652803
+    second: Rock1_125
+  - first:
+      213: -4306187840650035044
+    second: Rock1_126
+  - first:
+      213: -8924445168418646709
+    second: Rock1_127
+  - first:
+      213: 5217401320609360109
+    second: Rock1_128
+  - first:
+      213: -3135153449149717686
+    second: Rock1_129
+  - first:
+      213: 5671072894963561224
+    second: Rock1_130
+  - first:
+      213: 859126005191222504
+    second: Rock1_131
+  - first:
+      213: 830896395062778377
+    second: Rock1_132
+  - first:
+      213: -2337166140443885476
+    second: Rock1_133
+  - first:
+      213: 8317023766992996782
+    second: Rock1_134
+  - first:
+      213: 7158960529547003160
+    second: Rock1_135
+  - first:
+      213: -3135092929836998053
+    second: Rock1_136
+  - first:
+      213: -6012801954866509365
+    second: Rock1_137
+  - first:
+      213: -7461641985321240618
+    second: Rock1_138
+  - first:
+      213: 3629263108330917026
+    second: Rock1_139
+  - first:
+      213: 7635609509556387537
+    second: Rock1_140
+  - first:
+      213: -2632858374112890875
+    second: Rock1_141
+  - first:
+      213: -6211464245257195193
+    second: Rock1_142
+  - first:
+      213: -1025922547107634112
+    second: Rock1_143
+  - first:
+      213: -2165532509376316228
+    second: Rock1_144
+  - first:
+      213: -6707848600215513381
+    second: Rock1_145
+  - first:
+      213: 5131276161796049437
+    second: Rock1_146
+  - first:
+      213: -109159905555483770
+    second: Rock1_147
+  - first:
+      213: 1133900234419472579
+    second: Rock1_148
+  - first:
+      213: 601709277775708197
+    second: Rock1_149
+  - first:
+      213: -1851872020584991450
+    second: Rock1_150
+  - first:
+      213: -8319056630612752988
+    second: Rock1_151
+  - first:
+      213: -5465408120215660131
+    second: Rock1_152
+  - first:
+      213: 4303050374386707344
+    second: Rock1_153
+  - first:
+      213: 1617850478742203444
+    second: Rock1_154
+  - first:
+      213: 8770547509928641674
+    second: Rock1_155
+  - first:
+      213: 797852844691464939
+    second: Rock1_156
+  - first:
+      213: -656387079226908775
+    second: Rock1_157
+  - first:
+      213: 5495595309845026451
+    second: Rock1_158
+  - first:
+      213: 8464573787476949351
+    second: Rock1_159
+  - first:
+      213: 6921163573834770697
+    second: Rock1_160
+  - first:
+      213: -1227748939547934064
+    second: Rock1_161
+  - first:
+      213: -1223395492824524457
+    second: Rock1_162
+  - first:
+      213: -4147993345856379680
+    second: Rock1_163
+  - first:
+      213: 6832425953017235193
+    second: Rock1_164
+  - first:
+      213: -2644600415682490778
+    second: Rock1_165
+  - first:
+      213: -5838435188156572109
+    second: Rock1_166
+  - first:
+      213: -3873229746324666574
+    second: Rock1_167
+  - first:
+      213: 5251780551153634328
+    second: Rock1_168
+  - first:
+      213: 3676413701986581918
+    second: Rock1_169
+  - first:
+      213: 7087129809867192859
+    second: Rock1_170
+  - first:
+      213: 9002034619812525402
+    second: Rock1_171
+  - first:
+      213: -7711731751367294771
+    second: Rock1_172
+  - first:
+      213: -6212574424501893938
+    second: Rock1_173
+  - first:
+      213: 2014503051634847459
+    second: Rock1_174
+  - first:
+      213: -5642617443912639041
+    second: Rock1_175
+  - first:
+      213: -3513976982336448707
+    second: Rock1_176
+  - first:
+      213: 1411453451400390393
+    second: Rock1_177
+  - first:
+      213: -6263720515308849324
+    second: Rock1_178
+  - first:
+      213: 4336838546806526691
+    second: Rock1_179
+  - first:
+      213: 339970626657287426
+    second: Rock1_180
+  - first:
+      213: 2478736892516358242
+    second: Rock1_181
+  - first:
+      213: 2351059471016604042
+    second: Rock1_182
+  - first:
+      213: -7760844971219785987
+    second: Rock1_183
+  - first:
+      213: 6620470166735004024
+    second: Rock1_184
+  - first:
+      213: -5364582883440073136
+    second: Rock1_185
+  - first:
+      213: -3111481931209097562
+    second: Rock1_186
+  - first:
+      213: -4787642838018654112
+    second: Rock1_187
+  - first:
+      213: 3478666592958621994
+    second: Rock1_188
+  - first:
+      213: 1677459465051540431
+    second: Rock1_189
+  - first:
+      213: -5374667428480745915
+    second: Rock1_190
+  - first:
+      213: -8903791334803207245
+    second: Rock1_191
+  - first:
+      213: 5291705730454724261
+    second: Rock1_192
+  - first:
+      213: -5872240507501956259
+    second: Rock1_193
+  - first:
+      213: -5165556920620129812
+    second: Rock1_194
+  - first:
+      213: -5820465912570962048
+    second: Rock1_195
+  - first:
+      213: -2203443272733953194
+    second: Rock1_196
+  - first:
+      213: 2390566304179287738
+    second: Rock1_197
+  - first:
+      213: -1259687529344098987
+    second: Rock1_198
+  - first:
+      213: 6631684427271866848
+    second: Rock1_199
+  - first:
+      213: 4555031540598012108
+    second: Rock1_200
+  - first:
+      213: -7207798920401736416
+    second: Rock1_201
+  - first:
+      213: 8950691932064161687
+    second: Rock1_202
+  - first:
+      213: 8074478505182520417
+    second: Rock1_203
+  - first:
+      213: 2642154890261463888
+    second: Rock1_204
+  - first:
+      213: -525905028472849468
+    second: Rock1_205
+  - first:
+      213: 6324555347310025081
+    second: Rock1_206
+  - first:
+      213: 980507814016614438
+    second: Rock1_207
+  - first:
+      213: -2051586366740321177
+    second: Rock1_208
+  - first:
+      213: 8100300147728762150
+    second: Rock1_209
+  - first:
+      213: 7239594692240650976
+    second: Rock1_210
+  - first:
+      213: 8921887488573371830
+    second: Rock1_211
+  - first:
+      213: -8099248050896644583
+    second: Rock1_212
+  - first:
+      213: 82675004091856402
+    second: Rock1_213
+  - first:
+      213: -2065993783190851893
+    second: Rock1_214
+  - first:
+      213: -1243339248679520165
+    second: Rock1_215
+  - first:
+      213: -4466812743640640640
+    second: Rock1_216
+  - first:
+      213: -8284204100874161989
+    second: Rock1_217
+  - first:
+      213: -908751232040247878
+    second: Rock1_218
+  - first:
+      213: -4477235374474763050
+    second: Rock1_219
+  - first:
+      213: -2075736446528609404
+    second: Rock1_220
+  - first:
+      213: 959927893586907870
+    second: Rock1_221
+  - first:
+      213: -8059625453389918893
+    second: Rock1_222
+  - first:
+      213: 7698325370781247171
+    second: Rock1_223
+  - first:
+      213: -5825114136608917650
+    second: Rock1_224
+  - first:
+      213: 2226354358772133098
+    second: Rock1_225
+  - first:
+      213: 1303030347418701752
+    second: Rock1_226
+  - first:
+      213: 1050106984920382909
+    second: Rock1_227
+  - first:
+      213: 6539865800462821949
+    second: Rock1_228
+  - first:
+      213: -4823409814685730241
+    second: Rock1_229
+  - first:
+      213: -5410888207511203522
+    second: Rock1_230
+  - first:
+      213: 6500404447569585847
+    second: Rock1_231
+  - first:
+      213: -4067316529231098967
+    second: Rock1_232
+  - first:
+      213: -7328880251785664248
+    second: Rock1_233
+  - first:
+      213: 1896036205230782019
+    second: Rock1_234
+  - first:
+      213: -6740197321208610244
+    second: Rock1_235
+  - first:
+      213: -495842672826189027
+    second: Rock1_236
+  - first:
+      213: 6004069917212654018
+    second: Rock1_237
+  - first:
+      213: -707021792394454201
+    second: Rock1_238
+  - first:
+      213: -5238619740960080339
+    second: Rock1_239
+  - first:
+      213: -858562492286580282
+    second: Rock1_240
+  - first:
+      213: 6632532070238438524
+    second: Rock1_241
+  - first:
+      213: -8075730373080632989
+    second: Rock1_242
+  - first:
+      213: 5894355913837563025
+    second: Rock1_243
+  - first:
+      213: -4017790884813708089
+    second: Rock1_244
+  - first:
+      213: -1054629180281753972
+    second: Rock1_245
+  - first:
+      213: 5987479745214499947
+    second: Rock1_246
+  - first:
+      213: -5532014960300457000
+    second: Rock1_247
+  - first:
+      213: 2588914599136097767
+    second: Rock1_248
+  - first:
+      213: -1011365905877989468
+    second: Rock1_249
+  - first:
+      213: 5055599397605727705
+    second: Rock1_250
+  - first:
+      213: 4191988744316976410
+    second: Rock1_251
+  - first:
+      213: -7444650968796588
+    second: Rock1_252
+  - first:
+      213: -6876420947238695183
+    second: Rock1_253
+  - first:
+      213: 1985325563635006893
+    second: Rock1_254
+  - first:
+      213: 600531423483076754
+    second: Rock1_255
+  - first:
+      213: 7885519670041157339
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_0
+  - first:
+      213: 7315060355826062189
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_1
+  - first:
+      213: 7408816790637166452
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_2
+  - first:
+      213: -4479258218003509083
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_3
+  - first:
+      213: -8348730580858831760
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_4
+  - first:
+      213: -5321300972535362670
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_5
+  - first:
+      213: -7021289502039016271
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_6
+  - first:
+      213: -1135341016363702831
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_7
+  - first:
+      213: -3424181299195733039
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_8
+  - first:
+      213: 8986909868616169401
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_9
+  - first:
+      213: -8560236048908461496
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_10
+  - first:
+      213: 6754255255498212418
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_11
+  - first:
+      213: 4464226976820581108
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_12
+  - first:
+      213: -5204920534439140300
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_13
+  - first:
+      213: 1076055076507205859
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_14
+  - first:
+      213: -130621483732564345
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_15
+  - first:
+      213: -3911075160845345576
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_16
+  - first:
+      213: -4919221848445910450
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_17
+  - first:
+      213: -4338608671759546999
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_18
+  - first:
+      213: 5717217326115072190
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_19
+  - first:
+      213: -8020570031337397455
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_20
+  - first:
+      213: 530009804229288354
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_21
+  - first:
+      213: -3991007789949642640
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_22
+  - first:
+      213: 9025365575736624723
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_23
+  - first:
+      213: 504847256397267356
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_24
+  - first:
+      213: -699847009677020721
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_25
+  - first:
+      213: 3011405401712988550
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_26
+  - first:
+      213: 2437929383971508005
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_27
+  - first:
+      213: -8996640238784743396
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_28
+  - first:
+      213: 3777932252252467413
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_29
+  - first:
+      213: 8932044818974407045
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_30
+  - first:
+      213: -8876236683747951313
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_31
+  - first:
+      213: -2326377225151267014
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_32
+  - first:
+      213: 8346918430658681785
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_33
+  - first:
+      213: 3160162657862290938
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_34
+  - first:
+      213: 8459792340401023075
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_35
+  - first:
+      213: -3889169222570002443
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_36
+  - first:
+      213: 6523105411755746794
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_37
+  - first:
+      213: 6860778007896573014
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_38
+  - first:
+      213: -3304743079608670023
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_39
+  - first:
+      213: -157184352082017239
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_40
+  - first:
+      213: 6626569257062802050
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_41
+  - first:
+      213: 2824488678143740061
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_42
+  - first:
+      213: 1638180804911830297
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_43
+  - first:
+      213: 2949035899575645191
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_44
+  - first:
+      213: 5950817461413146221
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_45
+  - first:
+      213: -2178415025553699644
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_46
+  - first:
+      213: -7175214981748553073
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_47
+  - first:
+      213: 6034025257535580802
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_48
+  - first:
+      213: 7300526608980651375
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_49
+  - first:
+      213: -5344458381481509417
+    second: InteractiveTileTemplate_Immutable_Flip_Immutable_Rotation_50
+  - first:
+      213: 6816376378330430380
+    second: Pipe1_0
+  - first:
+      213: 8233615550746219305
+    second: Pipe1_1
+  - first:
+      213: 6240844880615314809
+    second: Pipe1_2
+  - first:
+      213: -5248940302763537899
+    second: Pipe1_3
+  - first:
+      213: 8524414849197097598
+    second: Pipe1_4
+  - first:
+      213: -6165495094726056618
+    second: Pipe1_5
+  - first:
+      213: -7140707586572766809
+    second: Pipe1_6
+  - first:
+      213: -6177660644599880563
+    second: Pipe1_7
+  - first:
+      213: -4268615726035044635
+    second: Pipe1_8
+  - first:
+      213: -5933482958601894722
+    second: Pipe1_9
+  - first:
+      213: -1642519060962467020
+    second: Pipe1_10
+  - first:
+      213: 5371965951430732578
+    second: Pipe1_11
+  - first:
+      213: -2835124910180797756
+    second: Pipe1_12
+  - first:
+      213: -7923906164770009944
+    second: Pipe1_13
+  - first:
+      213: -3936686643261078258
+    second: Pipe1_14
+  - first:
+      213: 5781922863984958004
+    second: Pipe1_15
+  - first:
+      213: 6314170728126749422
+    second: Pipe1_16
+  - first:
+      213: -5611179917275393117
+    second: Pipe1_17
+  - first:
+      213: 5958117259117501562
+    second: Pipe1_18
+  - first:
+      213: -6754320940715991701
+    second: Pipe1_19
+  - first:
+      213: -4419569223746076247
+    second: Pipe1_20
+  - first:
+      213: -745213155508125996
+    second: Pipe1_21
+  - first:
+      213: -5584293769647708134
+    second: Pipe1_22
+  - first:
+      213: -4760317018676515892
+    second: Pipe1_23
+  - first:
+      213: 3251121779989360416
+    second: Pipe1_24
+  - first:
+      213: -5840005621471935650
+    second: Pipe1_25
+  - first:
+      213: -4374599150689235669
+    second: Pipe1_26
+  - first:
+      213: -3980206231684329703
+    second: Pipe1_27
+  - first:
+      213: 3437960815600168021
+    second: Pipe1_28
+  - first:
+      213: 5684825979105179335
+    second: Pipe1_29
+  - first:
+      213: 3297733631292145728
+    second: Pipe1_30
+  - first:
+      213: 5751487519619803320
+    second: Pipe1_31
+  - first:
+      213: -1774102244631949705
+    second: Pipe1_32
+  - first:
+      213: -275954830829337135
+    second: Pipe1_33
+  - first:
+      213: -9219339526889053913
+    second: Pipe1_34
+  - first:
+      213: 6160378985202941741
+    second: Pipe1_35
+  - first:
+      213: -5834952003484586239
+    second: Pipe1_36
+  - first:
+      213: 8087512625070528426
+    second: Pipe1_37
+  - first:
+      213: -8660205676878856627
+    second: Pipe1_38
+  - first:
+      213: 8692000424783490575
+    second: Pipe1_39
+  - first:
+      213: 5650833531060859118
+    second: Pipe1_40
+  - first:
+      213: -4128543320253829037
+    second: Pipe1_41
+  - first:
+      213: -1282627725702223107
+    second: Pipe1_42
+  - first:
+      213: -2634949442426113526
+    second: Pipe1_43
+  - first:
+      213: -413851794148762300
+    second: Pipe1_44
+  - first:
+      213: 9050800747726993662
+    second: Pipe1_45
+  - first:
+      213: 6059873553040300653
+    second: Pipe1_46
+  - first:
+      213: -1534829570325533399
+    second: Pipe1_47
+  - first:
+      213: -4490126430625834918
+    second: Pipe1_48
+  - first:
+      213: -4290771694038867913
+    second: Pipe1_49
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pipe1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f06126369a2357448dda7828ecd0660
+      internalID: 6816376378330430380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a9e29fa9cff0448a43c96ce4adc965
+      internalID: 8233615550746219305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265546caa9d40704cb80a45992d96273
+      internalID: 6240844880615314809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87886baf564966240bffcd7aa96ccde8
+      internalID: -5248940302763537899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11655263ac334a4ea824b07d7b8258d
+      internalID: 8524414849197097598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2650f5796eda9ce44b5fbd0c85cf1559
+      internalID: -6165495094726056618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5285b826effde3a4b8c11f79019932a2
+      internalID: -7140707586572766809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d558a7375e05b429aa9124fc3f433f
+      internalID: -6177660644599880563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcae2994ae7bcb24cae3fd00bb2bec3d
+      internalID: -4268615726035044635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9278ac06a4f624f81b8cd5b67e87ac
+      internalID: -5933482958601894722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_10
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03f9702fdc9aa34c85ed4f58db8068c
+      internalID: -1642519060962467020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80376e809f83836468beaa6e12a01c53
+      internalID: 5371965951430732578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b551fa4ee2a947b0981218224893b
+      internalID: -2835124910180797756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79dcb713fd9db54a8be8bb6bb5fca05
+      internalID: -7923906164770009944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c54b263ee05e84792fa0f7f5a53062
+      internalID: -3936686643261078258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc539e1786b23de48a5c0595e9eadbe9
+      internalID: 5781922863984958004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_16
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364160e8a7fe24647a8fc3d8e98d17a9
+      internalID: 6314170728126749422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98a27a5f1aa68e4d88fca8725ef57d7
+      internalID: -5611179917275393117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1159c1211b40bb4a8def7cf883cda60
+      internalID: 5958117259117501562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd12feafed2eee4e938b983939057f4
+      internalID: -6754320940715991701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e299a47f3c8400f42b654deecbca492a
+      internalID: -4419569223746076247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01ae447713c4f941a326d3e0ccee93f
+      internalID: -745213155508125996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14c1e2098a14140beb08da71fcc9a0
+      internalID: -5584293769647708134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d4b4375d5bdbe4f9c2b3508a631b33
+      internalID: -4760317018676515892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4655a37193851c845bc8892627919ab2
+      internalID: 3251121779989360416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_25
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61aac0204f721647833acce50f7b19d
+      internalID: -5840005621471935650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_26
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832a19f09c2e5734186eff1c643eefde
+      internalID: -4374599150689235669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c37b956934c2e4a8b56e67e694c92b
+      internalID: -3980206231684329703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b7d8da31f3934b95dddf4279e823e
+      internalID: 3437960815600168021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f63df5601e21d940a0f284842701bce
+      internalID: 5684825979105179335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0334f7fa220254b841fd4cb3a08da9
+      internalID: 3297733631292145728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a106a6d0bbc33740ab08f3c9d80690c
+      internalID: 5751487519619803320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_32
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a831c166b8b514cbcc0a8fb74645fb
+      internalID: -1774102244631949705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_33
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af1bc63439914c4d8d092807dda68c5
+      internalID: -275954830829337135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_34
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d4fa5610a30e441aae90e7f0564c45
+      internalID: -9219339526889053913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d34ce2e1b8f4a944b908c605279c77e
+      internalID: 6160378985202941741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9956772a9432389409c4e8592138ff20
+      internalID: -5834952003484586239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d3288ddca167142b2b3d299f37eee2
+      internalID: 8087512625070528426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dfc11268b244648b120aa7b857600d
+      internalID: -8660205676878856627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_39
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16738b15a4455a49a9a08e75216a4db
+      internalID: 8692000424783490575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_40
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970e684df7ecc574a872ac9ddc5840d2
+      internalID: 5650833531060859118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b68634e79b92fd4a9e07e8ab81c4e1a
+      internalID: -4128543320253829037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356cdf4e56212a04d915d88e0897f705
+      internalID: -1282627725702223107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c012740602d26f542b80bd26adbd1d26
+      internalID: -2634949442426113526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_44
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87849a3e521126742b201248fac82ac7
+      internalID: -413851794148762300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968edfc0c5bcc4f4c934b1169ffe0f2a
+      internalID: 9050800747726993662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_46
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77c765eedc60c74eae42189dbf64b8e
+      internalID: 6059873553040300653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8ed66c13eb8494c9af01fe12073841
+      internalID: -1534829570325533399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_48
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65370dd38834b1438185cf889ead4cc
+      internalID: -4490126430625834918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe1_49
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3141f1af3ba30a3498bb0878a86536d8
+      internalID: -4290771694038867913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 30f4d48fe07dd9142af14cffec672cfc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
