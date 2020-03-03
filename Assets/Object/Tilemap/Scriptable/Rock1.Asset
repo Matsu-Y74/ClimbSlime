@@ -36,6 +36,9 @@ MonoBehaviour:
   m_ColliderType: 1
   Immutable_Flip: 0
   Immutable_Rotation: 0
+  InteractiveTileClasses:
+  - {fileID: 11400000, guid: 36af2ac8b8d33c04ba571bd0e020f931, type: 2}
+  - {fileID: 11400000, guid: 730273c181752be4f83eb6faec5bf458, type: 2}
   m_Sprites:
   - {fileID: 6529909481953654932, guid: c2a96e8f24046ee408115942479a0982, type: 3}
   - {fileID: 8022566287833246668, guid: c2a96e8f24046ee408115942479a0982, type: 3}
