@@ -59,6 +59,8 @@ public class InteractiveTile : Tile
 	public bool Immutable_Flip;
 	public bool Immutable_Rotation;
 
+	public List<TileBase> InteractiveTileClasses = new List<TileBase>();
+
     public Sprite[] m_Sprites;
     public Sprite m_Preview;
 
@@ -141,14 +143,19 @@ public class InteractiveTile : Tile
 		}
         else
         {
-        Debug.LogWarning("Not enough sprites in InteractiveTile instance");
-}
+        	Debug.LogWarning("Not enough sprites in InteractiveTile instance");
+		}
     }
 	
     private bool HasTile(ITilemap tilemap, Vector3Int position)
     {
-        return tilemap.GetTile(position) == this;
-    }
+		if(tilemap.GetTile(position) == this){
+			return true;
+		}
+		else{
+			return InteractiveTileClasses.Contains(tilemap.GetTile(position));
+	    }
+	}
 # if UNITY_EDITOR
     [MenuItem("Assets/Create/InteractiveTile")]
     public static void CreateInteractiveTile()
@@ -156,7 +163,7 @@ public class InteractiveTile : Tile
         string path = EditorUtility.SaveFilePanelInProject("Save InteractiveTile", "New InteractiveTile", "Asset", "Save InteractiveTile", "Assets/Object/Tilemap/Scriptable");
         if (path == "")
             return;
-    AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<InteractiveTile>(), path);
+	    AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<InteractiveTile>(), path);
     }
 # endif
 }
