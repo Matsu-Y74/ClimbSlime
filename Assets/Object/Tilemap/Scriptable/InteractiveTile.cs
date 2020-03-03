@@ -75,32 +75,32 @@ public class InteractiveTile : Tile
             }
 		}
     }
-/*
-	indexと画像の関係性
-	 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
-	XX XX XX XX FF XX F_ XX _F XX XX XX _F XX XX XX  15
-	_F XX ff XX _F XX ff XX _F ff ff XX _F ff ff XX  31
-	_F _F XX XX FF XX F_ XX _F XX XX XX _F XX XX XX  47
-	_F _F _F XX _F XX XX XX _F XX ff XX _F XX XX XX  63
-	FF FF FF FF FF FF FF FF _F _F _F _F _F _F _F _F  79
-	_F _F _F _F FF XX F_ XX _F _F ff XX _F _F ff XX  95
-	FF FF FF FF FF FF F_ F_ _F _F ff XX _F _F ff XX  111
-	_F _F _F _F FF _F FF XX _F _F ff ff _F _F ff XX  127
-	FF FF FF FF FF FF FF FF _F _F _F _F FF _F FF _F  143
-	FF FF FF FF FF FF FF FF _F _F _F _F _F _F _F _F  159
-	FF FF FF FF FF FF FF FF _F _F XX XX FF _F FF XX  175
-	FF FF FF FF FF FF FF FF _F _F _F XX _F _F _F XX  191
-	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  207
-	FF FF FF FF FF FF FF FF _F _F _F _F FF _F FF _F  223
-	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  239
-	FF FF FF FF FF FF FF FF _F _F _F _F FF _F FF XX  255
-	0~255のうち必要なものは以下となる.
-	FF : Immutable_Flip, Immutable_Rotation のどちらもFalseの場合必要
-	F_ : Immutable_Flip がFalseの場合必要
-	_F : Immutable_Rotation がFalseの場合必要
-	ff : Immutable_Flip, Immutable_Rotation の少なくともどちら片方がFalseの場合必要
-	XX : 常に必要
-*/
+	/*
+		indexと画像の関係性
+		0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+		XX XX XX XX FF XX F_ XX _F XX XX XX _F XX XX XX  15
+		_F XX ff XX _F XX ff XX _F ff ff XX _F ff ff XX  31
+		_F _F XX XX FF XX F_ XX _F XX XX XX _F XX XX XX  47
+		_F _F _F XX _F XX XX XX _F XX ff XX _F XX XX XX  63
+		FF FF FF FF FF FF FF FF _F _F _F _F _F _F _F _F  79
+		_F _F _F _F FF XX F_ XX _F _F ff XX _F _F ff XX  95
+		FF FF FF FF FF FF F_ F_ _F _F ff XX _F _F ff XX  111
+		_F _F _F _F FF _F FF XX _F _F ff ff _F _F ff XX  127
+		FF FF FF FF FF FF FF FF _F _F _F _F FF _F FF _F  143
+		FF FF FF FF FF FF FF FF _F _F _F _F _F _F _F _F  159
+		FF FF FF FF FF FF FF FF _F _F XX XX FF _F FF XX  175
+		FF FF FF FF FF FF FF FF _F _F _F XX _F _F _F XX  191
+		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  207
+		FF FF FF FF FF FF FF FF _F _F _F _F FF _F FF _F  223
+		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  239
+		FF FF FF FF FF FF FF FF _F _F _F _F FF _F FF XX  255
+		0~255のうち必要なものは以下となる.
+		FF : Immutable_Flip, Immutable_Rotation のどちらもFalseの場合必要
+		F_ : Immutable_Flip がFalseの場合必要
+		_F : Immutable_Rotation がFalseの場合必要
+		ff : Immutable_Flip, Immutable_Rotation の少なくともどちら片方がFalseの場合必要
+		XX : 常に必要
+	*/
 	InteractiveTileIndexUnit indexof(Vector3Int l, ITilemap t){
         int mask_x = 0, mask_y = 0;
 		mask_x += HasTile(t, l + new Vector3Int(-1,  1, 0)) ? 0b0001 : 0;
@@ -156,7 +156,8 @@ public class InteractiveTile : Tile
 			return InteractiveTileClasses.Contains(tilemap.GetTile(position));
 	    }
 	}
-# if UNITY_EDITOR
+	
+	# if UNITY_EDITOR
     [MenuItem("Assets/Create/InteractiveTile")]
     public static void CreateInteractiveTile()
     {
@@ -165,5 +166,5 @@ public class InteractiveTile : Tile
             return;
 	    AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<InteractiveTile>(), path);
     }
-# endif
+	# endif
 }
