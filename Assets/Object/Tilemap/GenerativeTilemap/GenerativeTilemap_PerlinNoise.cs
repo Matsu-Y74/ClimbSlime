@@ -31,7 +31,7 @@ public class GenerativeTilemap_PerlinNoiseEditor : GenerativeTilemapEditor {
 	public override void OnInspectorGUI(){
 		d = EditorGUILayout.Vector2Field("PerlinNoise 2D Difference",d);
 		s = EditorGUILayout.Vector2Field("PerlinNoise 2D Factor",s);
-		//"PerlinNoise Threadhold"
+		EditorGUILayout.FloatField("PerlinNoise Threadhold",t);
 		t = GUILayout.HorizontalSlider(t,0,1);
 		base.OnInspectorGUI();
 	}
