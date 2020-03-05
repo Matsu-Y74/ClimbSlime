@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading.Tasks;
 
-namespace Mapping{
-	public static class SingleFunction{
+namespace Utility.Mapping{
+	public static class SingleMap{
 		public static TResult[] SingleFunc<TResult>(Func<TResult> f,int length){
 			TResult[] r = new TResult[length];
 			for(int i = 0; i < length ; i++) r[i] = f();
@@ -400,7 +400,7 @@ namespace Mapping{
 		}
 	}
 
-	public static class ParallelFunction{
+	public static class ParallelMap{
 		public static TResult[] ParallelFunc<TResult>(Func<TResult> f,int length){
 			TResult[] r = new TResult[length];
 			Parallel.For(0, length, i => r[i] = f());
