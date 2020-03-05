@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Utility.Mapping;
 
 [RequireComponent(typeof(MeshRenderer))]
 [RequireComponent(typeof(MeshFilter))]
@@ -17,7 +18,7 @@ public class SlimeSticky : MonoBehaviour2D
 			Filter = filter;
 			vertexs = new Vector3[Parent.VertexCount + 2];
 			vertexorder = new int[3 * Parent.VertexCount];
-			Utility_Parallel.IndexedParallelAction(i => {
+			ParallelMap.IndexedParallelAction(i => {
 				vertexorder[3 * i    ] = 0;
 				vertexorder[3 * i + 1] = i + 2;
 				vertexorder[3 * i + 2] = i + 1;
@@ -26,9 +27,9 @@ public class SlimeSticky : MonoBehaviour2D
 		public void Update() {
 			Vector3 origin = Parent.transform.position;
 			vertexs[0] = origin;
-			Utility_Parallel.IndexedSingleAction(Parent.slimeStickyNode,(n,i)=>
+			SingleMap.IndexedSingleAction(Parent.slimeStickyNode,(n,i)=>
 				vertexs[i + 1] = n.transform.position);
-			Utility_Parallel.IndexedParallelAction(i => vertexs[i] -= origin,vertexs.Length);
+			ParallelMap.IndexedParallelAction(i => vertexs[i] -= origin,vertexs.Length);
 
 			Mesh mesh = new Mesh();
 			mesh.vertices = vertexs;
@@ -64,7 +65,7 @@ public class SlimeSticky : MonoBehaviour2D
 	private float _Viscosity;
 	public float Viscosity{
 		get{ return _Viscosity; }
-		set{ _Viscosity = value; Utility_Parallel.SingleAction(slimeStickyNode,s => s.Viscosity = _Viscosity,VertexCount);}
+		set{ _Viscosity = value; SingleMap.SingleAction(slimeStickyNode,s => s.Viscosity = _Viscosity,VertexCount);}
 	}
 	
 	///<summary>
@@ -73,7 +74,7 @@ public class SlimeSticky : MonoBehaviour2D
 	private float _Weight;
 	public  float Weight{
 		get{ return _Weight; }
-		set{ _Weight = value; Utility_Parallel.SingleAction(slimeStickyNode,s => s.Weight = _Weight / VertexCount ,VertexCount); }
+		set{ _Weight = value; SingleMap.SingleAction(slimeStickyNode,s => s.Weight = _Weight / VertexCount ,VertexCount); }
 	}
 	
 	public Vector2 Velocity
@@ -112,11 +113,11 @@ public class SlimeSticky : MonoBehaviour2D
 
 		Vector2[] points_hull_Initial = new Vector2[VertexCount + 1];
 
-		points_hull_Initial = Utility_Parallel.IndexedParallelFunc(i => 
+		points_hull_Initial = ParallelMap.IndexedParallelFunc(i => 
 			NormalRadius * new Vector2(Mathf.Cos(2f * Mathf.PI * i / VertexCount),Mathf.Sin(2f * Mathf.PI * i/ VertexCount))
 		,VertexCount + 1);
 		
-		slimeStickyNode = Utility_Parallel.IndexedSingleFunc(points_hull_Initial,(n,i) => {
+		slimeStickyNode = SingleMap.IndexedSingleFunc(points_hull_Initial,(n,i) => {
 			if(i != VertexCount){
 				GameObject obj = GameObject.Instantiate(prefab_SlimeStickyNode,Position2D + n,Quaternion.identity,transform);
 				obj.name = $"{gameObject.name}_SlimeStickyNode{i}";
@@ -126,7 +127,7 @@ public class SlimeSticky : MonoBehaviour2D
 		},VertexCount + 1);
 		slimeStickyNode[VertexCount] = slimeStickyNode[0];
 		
-		Utility_Parallel.IndexedSingleAction(slimeStickyNode,(n,i) =>
+		SingleMap.IndexedSingleAction(slimeStickyNode,(n,i) =>
 		n.Initialize(i,this,points_hull_Initial[i], slimeStickyNode[(i - 1 + VertexCount) % VertexCount], slimeStickyNode[(i + 1) % VertexCount]),VertexCount);
 		
 		slimeRendering = new SlimeRendering(this,GetComponent<MeshFilter>());
@@ -136,13 +137,13 @@ public class SlimeSticky : MonoBehaviour2D
 	}
 
 	void FixedUpdate() {
-		Vector2[] newPos = Utility_Parallel.SingleFunc(slimeStickyNode,n => n.Position2D, VertexCount);
+		Vector2[] newPos = SingleMap.SingleFunc(slimeStickyNode,n => n.Position2D, VertexCount);
 
 		Vector2 gravityCenter = Vector2.zero;
-		Utility_Parallel.SingleAction(slimeStickyNode, n => gravityCenter += n.Position2D , VertexCount);
+		SingleMap.SingleAction(slimeStickyNode, n => gravityCenter += n.Position2D , VertexCount);
 		Position2D = gravityCenter / VertexCount;
-		Utility_Parallel.SingleAction(slimeStickyNode,newPos,(n,p) => n.Position2D = p, VertexCount);
-		Utility_Parallel.IndexedSingleAction(i => {
+		SingleMap.SingleAction(slimeStickyNode,newPos,(n,p) => n.Position2D = p, VertexCount);
+		SingleMap.IndexedSingleAction(i => {
 			if(i > 0 && (slimeStickyNode[i].Position2D - Position2D).magnitude > NormalRadius * 1.5f)
 				slimeStickyNode[i].Position2D = slimeStickyNode[i - 1].Position2D;
 		}
@@ -155,9 +156,9 @@ public class SlimeSticky : MonoBehaviour2D
 	}
 	
 	public void AddForce(Vector2 force){
-		Utility_Parallel.SingleAction(slimeStickyNode,n => n.rigidbody2D.AddForce(force), VertexCount);
+		SingleMap.SingleAction(slimeStickyNode,n => n.rigidbody2D.AddForce(force), VertexCount);
 	}
 	public void AddForce(Vector2 force,ForceMode2D mode){
-		Utility_Parallel.SingleAction(slimeStickyNode,n => n.rigidbody2D.AddForce(force,mode), VertexCount);
+		SingleMap.SingleAction(slimeStickyNode,n => n.rigidbody2D.AddForce(force,mode), VertexCount);
 	}
 }
