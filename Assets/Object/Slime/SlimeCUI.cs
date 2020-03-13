@@ -3,17 +3,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class CUIStringInfo{
+	public string String{get;}
+	public int? CharactorStreamingFrame{get;}
+
+	public CUIStringInfo(string str){
+		String = str;
+		CharactorStreamingFrame = null;
+	}
+	
+	public CUIStringInfo(string str, int? charactorStreamingFrame){
+		String = str;
+		CharactorStreamingFrame = charactorStreamingFrame;
+	}
+}
+
 public class SlimeCUI : MonoBehaviour
 {
 	[SerializeField]
 	GameObject slimeCUIUnit;
 	RectTransform rect;
 
-	int Frame_StringMove              = 5;
-	int Frame_CharactorFlush_interval = 2;
-	int Frame_StreamFlush_interval    = 5;
-
-	int MaxLine {get;}= 12;
+	public int MaxLine {get;}= 12;
 
 	bool _IsFlushing = false;
 	public bool IsFlushing{
@@ -32,41 +43,64 @@ public class SlimeCUI : MonoBehaviour
 	
 	void Awake() {
 		rect = GetComponent<RectTransform>();
-		rect.sizeDelta = new Vector2(Screen.width * 0.8f,Screen.height);
+		rect.sizeDelta = new Vector2(Screen.width * 0.9f,Screen.height);
 	}
 
+	public int DefaultFrame_StreamFlush_interval {get;} = 30;
+	public int DefaultFrame_CharactorFlush_interval {get;} = 0;
+
+	int Frame_StringMove = 1;
 	Coroutine coroutine_Flushing = null;
+	Queue<Queue<CUIStringInfo>> stringInfos = new Queue<Queue<CUIStringInfo>>();
 	LinkedList<SlimeCUIUnit> slimeCUIUnits = new LinkedList<SlimeCUIUnit>();
 	IEnumerator Flush(){
 		while(true){
-			if(strqueue.Count > 0)
-				yield return StartCoroutine(FlushString(strqueue.Dequeue()));
-			yield return new WaitForSeconds(Math.Max(Frame_StreamFlush_interval * Time.deltaTime,float.Epsilon));
+			while(stringInfos.Count > 0){
+				yield return StartCoroutine(FlushString(stringInfos.Dequeue()));
+				if(Frame_StringMove != 0)
+					yield return new WaitForSeconds(Math.Max(Frame_StringMove * Time.deltaTime,float.Epsilon));
+			}
+			yield return null;
 		}
 	}
-	IEnumerator FlushString(string str){
+	IEnumerator FlushString(Queue<CUIStringInfo> stringinfo){
 		if(slimeCUIUnits.Count >= MaxLine){
-			foreach(var x in slimeCUIUnits)
+			foreach(var x in slimeCUIUnits){
 				x.Move(Frame_StringMove);
+			}
+			if(Frame_StringMove != 0)
+				yield return new WaitForSeconds(Math.Max(Frame_StringMove * Time.deltaTime,float.Epsilon));
 		}
-		yield return new WaitForSeconds(Math.Max(Frame_StringMove * Time.deltaTime,float.Epsilon));
 		var unit = Instantiate(slimeCUIUnit,transform.position,Quaternion.identity,transform).GetComponent<SlimeCUIUnit>();
 		unit.Initialize(this,slimeCUIUnits?.Last?.Value);
 		slimeCUIUnits.AddLast(unit);
-		foreach(var c in str){
-			unit.text.text += c;
-			yield return new WaitForSeconds(Math.Max(Frame_CharactorFlush_interval * Time.deltaTime,float.Epsilon));
-		}
+		yield return unit.Stream(stringinfo);
 		yield break;
 	}
-	Queue<string> strqueue = new Queue<string>();
-	public void Streaming<T>(T strings)where T : IEnumerable<string>{
-		foreach(string s in strings)
-			strqueue.Enqueue(s);
+	
+	public void Streaming(string strings) { Streaming(new string[]{strings}); }
+	public void Streaming(IEnumerable<string> strings) { Streaming(strings,DefaultFrame_CharactorFlush_interval); }
+	public void Streaming(IEnumerable<string> strings,int? frame_charactorflush){
+		Queue<CUIStringInfo> q = new Queue<CUIStringInfo>();
+		foreach(var s in strings)
+			q.Enqueue(new CUIStringInfo(s,frame_charactorflush));
+		
+		stringInfos.Enqueue(q);
 	}
-	public void Streaming(params string[] strings){
-		foreach(string s in strings)
-			strqueue.Enqueue(s);
+	public void Streaming(IEnumerable<string> strings,IEnumerable<int?> frames_charactorflush){
+		Queue<CUIStringInfo> q = new Queue<CUIStringInfo>();
+		var es = strings.GetEnumerator();
+		var ef = frames_charactorflush.GetEnumerator();
+		while(es.MoveNext() && ef.MoveNext()){
+			q.Enqueue(new CUIStringInfo(es.Current,ef.Current));
+		}
+		stringInfos.Enqueue(q);
+	}
+	public void Streaming(IEnumerable<IEnumerable<CUIStringInfo>> cuistringinfos){
+		foreach(var c in cuistringinfos)Streaming(c);
+	}
+	public void Streaming(IEnumerable<CUIStringInfo> cuistringinfo){
+		stringInfos.Enqueue(new Queue<CUIStringInfo>(cuistringinfo));
 	}
 
 	bool _IsActivated = false;
@@ -97,8 +131,19 @@ public class SlimeCUI : MonoBehaviour
 		yield return StartCoroutine(Coroutine_Activate(()=>{}));
 	}
 	IEnumerator Coroutine_Activate(Action initial){
-		initial();
+		IsActivated = true;
 		IsFlushing = true;
+		initial();
+		Streaming("");
+		Streaming("ENMIRAI Biocomputing-OS");
+		Streaming("");
+		Streaming("ENMIRAI Laboratories 2020 - [OUTOFRANGE EXCEPTION: YEAR_EXPIRED]");
+		Streaming("all rights (including knowledge and recognition) are reserved.");
+		Streaming("");
+		Streaming(
+			new string[]{"Initializing","... ", "OK"},
+			new int?[]  {          null,    50, null}
+		);
 		yield break;
 	}
 
@@ -116,12 +161,20 @@ public class SlimeCUI : MonoBehaviour
 		yield return StartCoroutine(Coroutine_ShutDown(()=>{}));
 	}
 	IEnumerator Coroutine_ShutDown(Action final){
-		IsFlushing = false;
+		Streaming(
+			new string[]{"Shutting down","... ", "OK"},
+			new int?[]  {          null,    50, null}
+		);
 		final();
+		IsFlushing = false;
+		IsActivated = false;
 		yield break;
 	}
 
 	void Update() {
-		
+		if(Input.GetKeyDown(KeyCode.Escape)){
+			if(!IsActivated) Activate();
+			else ShutDown();
+		}
 	}
 }

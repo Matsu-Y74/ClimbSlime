@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,7 +19,9 @@ public class SlimeCUIUnit : MonoBehaviour2D
 		Parent = parent;
 		ParentRect = Parent.GetComponent<RectTransform>();
 		AboveString = abovestring;
-		rect.sizeDelta = new Vector2(ParentRect.rect.width,Mathf.CeilToInt(ParentRect.rect.height / 18f));
+		int height = Mathf.CeilToInt(ParentRect.rect.height / 36f);
+		rect.sizeDelta = new Vector2(ParentRect.rect.width,height);
+		text.fontSize = Mathf.CeilToInt(Mathf.CeilToInt(height * 10f / 11f));
 		if(abovestring == null)
 			rect.position = (Vector2)ParentRect.position + new Vector2(0 , ParentRect.rect.height - rect.sizeDelta.y) / 2f;
 		else
@@ -42,6 +45,26 @@ public class SlimeCUIUnit : MonoBehaviour2D
 		}
 		Position2D = destination;
 		dest = null;
+		yield break;
+	}
+
+	Coroutine stream = null;
+	public Coroutine Stream(Queue<CUIStringInfo> stringinfo){
+		if(stream != null)
+			StopCoroutine(stream);
+		stream = StartCoroutine(StreamCoroutine(stringinfo));
+		return stream;
+	}
+	IEnumerator StreamCoroutine(Queue<CUIStringInfo> stringinfo){
+		while(stringinfo.Count > 0){
+			var unit = stringinfo.Dequeue();
+			int frame = unit.CharactorStreamingFrame ?? Parent.DefaultFrame_CharactorFlush_interval;
+			foreach(var c in unit.String){
+				text.text += c;
+				if(frame != 0)
+					yield return new WaitForSeconds(Math.Max(frame * Time.deltaTime,float.Epsilon));
+			}
+		}
 		yield break;
 	}
 }
