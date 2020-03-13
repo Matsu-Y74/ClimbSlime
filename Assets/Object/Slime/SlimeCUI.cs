@@ -109,10 +109,10 @@ public class SlimeCUI : MonoBehaviour
 		set{
 			if(value != _IsActivated){
 				if(!_IsActivated){
-					StartCoroutine(Coroutine_Activate(()=>_IsActivated = true));
+					StartCoroutine(Coroutine_Activate());
 				}
 				else
-					StartCoroutine(Coroutine_ShutDown(()=>_IsActivated = false));
+					StartCoroutine(Coroutine_ShutDown());
 			}
 		}
 	}
@@ -131,7 +131,7 @@ public class SlimeCUI : MonoBehaviour
 		yield return StartCoroutine(Coroutine_Activate(()=>{}));
 	}
 	IEnumerator Coroutine_Activate(Action initial){
-		IsActivated = true;
+		_IsActivated = true;
 		IsFlushing = true;
 		initial();
 		Streaming("");
@@ -165,9 +165,10 @@ public class SlimeCUI : MonoBehaviour
 			new string[]{"Shutting down","... ", "OK"},
 			new int?[]  {          null,    50, null}
 		);
+		yield return coroutine_Flushing;
 		final();
 		IsFlushing = false;
-		IsActivated = false;
+		_IsActivated = false;
 		yield break;
 	}
 
