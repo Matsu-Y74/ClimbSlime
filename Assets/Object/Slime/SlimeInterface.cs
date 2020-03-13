@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class SlimeInterface : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-		
-    }
+	SlimeCUI slimeCUI;
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
-        
+		slimeCUI = transform.Find("SlimeCUIFrame").GetComponent<SlimeCUI>();
     }
+	
+	private void Update() {
+		if(Input.GetKeyDown(KeyCode.Space)){
+			slimeCUI.Activate();
+		}
+	}
 }
