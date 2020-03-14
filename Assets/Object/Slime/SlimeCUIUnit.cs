@@ -48,21 +48,19 @@ public class SlimeCUIUnit : MonoBehaviour2D
 		yield break;
 	}
 
-	Coroutine stream = null;
-	public Coroutine Stream(Queue<CUIStringInfo> stringinfo){
-		if(stream != null)
-			StopCoroutine(stream);
-		stream = StartCoroutine(StreamCoroutine(stringinfo));
-		return stream;
+	Coroutine flush = null;
+	public Coroutine Flush(CUIStringInfo stringinfo){
+		if(flush != null)
+			StopCoroutine(flush);
+		flush = StartCoroutine(FlushCoroutine(stringinfo));
+		return flush;
 	}
-	IEnumerator StreamCoroutine(Queue<CUIStringInfo> stringinfo){
-		while(stringinfo.Count > 0){
-			var unit = stringinfo.Dequeue();
-			int frame = unit.CharactorStreamingFrame ?? Parent.DefaultFrame_CharactorFlush_interval;
-			foreach(var c in unit.String){
+	IEnumerator FlushCoroutine(CUIStringInfo stringinfo){
+		foreach(var unit in stringinfo){
+			foreach(var c in unit){
 				text.text += c;
-				if(frame != 0)
-					yield return new WaitForSeconds(Math.Max(frame * Time.deltaTime,float.Epsilon));
+				if(unit.CharactorStreamingFrame != 0)
+					yield return new WaitForSeconds(Math.Max(unit.CharactorStreamingFrame * Time.deltaTime,float.Epsilon));
 			}
 		}
 		yield break;
