@@ -21,7 +21,7 @@ public class SlimeCUIUnit : MonoBehaviour2D
 		AboveString = abovestring;
 		int height = Mathf.CeilToInt(ParentRect.rect.height / 36f);
 		rect.sizeDelta = new Vector2(ParentRect.rect.width,height);
-		text.fontSize = Mathf.CeilToInt(Mathf.CeilToInt(height * 10f / 11f));
+		
 		if(abovestring == null)
 			rect.position = (Vector2)ParentRect.position + new Vector2(0 , ParentRect.rect.height - rect.sizeDelta.y) / 2f;
 		else
@@ -50,12 +50,14 @@ public class SlimeCUIUnit : MonoBehaviour2D
 
 	Coroutine flush = null;
 	public Coroutine Flush(CUIStringInfo stringinfo){
+		stringinfo.displaedtext = text;
 		if(flush != null)
 			StopCoroutine(flush);
 		flush = StartCoroutine(FlushCoroutine(stringinfo));
 		return flush;
 	}
 	IEnumerator FlushCoroutine(CUIStringInfo stringinfo){
+		text.text = "-";
 		foreach(var unit in stringinfo){
 			foreach(var c in unit){
 				text.text += c;
@@ -63,6 +65,8 @@ public class SlimeCUIUnit : MonoBehaviour2D
 					yield return new WaitForSeconds(Math.Max(unit.CharactorStreamingFrame * Time.deltaTime,float.Epsilon));
 			}
 		}
+		if(stringinfo.Action_Final != null)
+			stringinfo.Action_Final(stringinfo);
 		yield break;
 	}
 }
