@@ -143,7 +143,8 @@ public class SlimeCUI : MonoBehaviour
 	RectTransform rect;
 
 	public int MaxLine {get;}= 12;
-	public Color DefaultStreamColor {get;}= Color.white;
+	public Color StreamColor_Default {get;} = new Color(1,1,1,0.6f);
+	public Color StreamColor_Red {get;} = new Color(1,0,0,0.6f);
 
 	bool _IsFlushing = false;
 	public bool IsFlushing{
@@ -200,10 +201,10 @@ public class SlimeCUI : MonoBehaviour
 		yield break;
 	}
 	
-	public CUIStringInfo Streaming(string str){ return Streaming(str, DefaultStreamColor); }
-	public CUIStringInfo Streaming(IEnumerable<string> strings){ return Streaming(strings, DefaultStreamColor); }
-	public CUIStringInfo Streaming(IEnumerable<string> strings,int frame_charactorflush){ return Streaming(strings, frame_charactorflush, DefaultStreamColor); }
-	public CUIStringInfo Streaming(IEnumerable<string> strings,IEnumerable<int?> frames_charactorflush){ return Streaming(strings, frames_charactorflush, DefaultStreamColor); }
+	public CUIStringInfo Streaming(string str){ return Streaming(str, StreamColor_Default); }
+	public CUIStringInfo Streaming(IEnumerable<string> strings){ return Streaming(strings, StreamColor_Default); }
+	public CUIStringInfo Streaming(IEnumerable<string> strings,int frame_charactorflush){ return Streaming(strings, frame_charactorflush, StreamColor_Default); }
+	public CUIStringInfo Streaming(IEnumerable<string> strings,IEnumerable<int?> frames_charactorflush){ return Streaming(strings, frames_charactorflush, StreamColor_Default); }
 	public LinkedList<CUIStringInfo> Streaming(IEnumerable<Tuple<IEnumerable<string>,IEnumerable<int?>>> cuistringinfos){
 		LinkedList<Tuple<IEnumerable<string>,IEnumerable<int?>,Color?>> l = new LinkedList<Tuple<IEnumerable<string>, IEnumerable<int?>, Color?>>();
 		foreach(var x in cuistringinfos)
@@ -240,17 +241,17 @@ public class SlimeCUI : MonoBehaviour
 				Streaming(
 					c.Item1,
 					c.Item2,
-					c.Item3.HasValue ? c.Item3.Value : DefaultStreamColor
+					c.Item3.HasValue ? c.Item3.Value : StreamColor_Default
 				)
 			));
 		}
 		return l;
 	}
 
-	public CUIStringInfo Streaming(string str, Action<CUIStringInfo> action){ return Streaming(str, DefaultStreamColor); }
-	public CUIStringInfo Streaming(IEnumerable<string> strings, Action<CUIStringInfo> action){ return Streaming(strings, DefaultStreamColor); }
-	public CUIStringInfo Streaming(IEnumerable<string> strings,int frame_charactorflush, Action<CUIStringInfo> action){ return Streaming(strings, frame_charactorflush, DefaultStreamColor); }
-	public CUIStringInfo Streaming(IEnumerable<string> strings,IEnumerable<int?> frames_charactorflush, Action<CUIStringInfo> action){ return Streaming(strings, frames_charactorflush, DefaultStreamColor); }
+	public CUIStringInfo Streaming(string str, Action<CUIStringInfo> action){ return Streaming(str, StreamColor_Default); }
+	public CUIStringInfo Streaming(IEnumerable<string> strings, Action<CUIStringInfo> action){ return Streaming(strings, StreamColor_Default); }
+	public CUIStringInfo Streaming(IEnumerable<string> strings,int frame_charactorflush, Action<CUIStringInfo> action){ return Streaming(strings, frame_charactorflush, StreamColor_Default); }
+	public CUIStringInfo Streaming(IEnumerable<string> strings,IEnumerable<int?> frames_charactorflush, Action<CUIStringInfo> action){ return Streaming(strings, frames_charactorflush, StreamColor_Default); }
 	public LinkedList<CUIStringInfo> Streaming(IEnumerable<Tuple<IEnumerable<string>,IEnumerable<int?>>> cuistringinfos, Action<CUIStringInfo> action){
 		LinkedList<Tuple<IEnumerable<string>,IEnumerable<int?>,Color?>> l = new LinkedList<Tuple<IEnumerable<string>, IEnumerable<int?>, Color?>>();
 		foreach(var x in cuistringinfos)
@@ -287,7 +288,7 @@ public class SlimeCUI : MonoBehaviour
 				Streaming(
 					c.Item1,
 					c.Item2,
-					c.Item3.HasValue ? c.Item3.Value : DefaultStreamColor
+					c.Item3.HasValue ? c.Item3.Value : StreamColor_Default
 				)
 			));
 		}
@@ -331,7 +332,7 @@ public class SlimeCUI : MonoBehaviour
 			initial();
 			Streaming(				"");
 			Streaming(				"SETTING UP STARTED");
-			Streaming(new string[]{	" Network Accessing" ,"...", "FAILED"}, new int?[]{null, 40, null},DefaultStreamColor, (x) => x.color = Color.red);
+			Streaming(new string[]{	" Network Accessing" ,"...", "FAILED"}, new int?[]{null, 40, null},StreamColor_Default, (x) => x.color = StreamColor_Red);
 			Streaming(				"SETTING UP FINISHED");
 			Streaming(				"");
 			Streaming(				"ENMIRAI Biocomputing-OS");
@@ -356,7 +357,7 @@ public class SlimeCUI : MonoBehaviour
 		Streaming(new string[]{	" Memory and Storage Setting up"	,"...", "OK"    }, new int?[]{null, 20, null});
 		Streaming(new string[]{	" Memory Surpervisor"				,"...", "OK"    }, new int?[]{null, 20, null});
 		Streaming(new string[]{	" Kernel Finalize"					,"...", "OK"    }, new int?[]{null, 10, null});
-		Streaming(new string[]{	" Network Accessing"				,"...", "FAILED"}, new int?[]{null, 40, null}, DefaultStreamColor,(t) => t.color = Color.red);
+		Streaming(new string[]{	" Network Accessing"				,"...", "FAILED"}, new int?[]{null, 40, null}, StreamColor_Default,(t) => t.color = StreamColor_Red);
 		Streaming(new string[]{	" Organ-Computer synthesize"		,"...", "OK"    }, new int?[]{null, 20, null});
 		Streaming(				"SETTING UP FINISHED");
 		Streaming(				"");
