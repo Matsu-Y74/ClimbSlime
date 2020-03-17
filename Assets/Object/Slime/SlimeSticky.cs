@@ -12,17 +12,27 @@ public class SlimeSticky : MonoBehaviour2D
 		SlimeSticky Parent{get;}
 		MeshFilter Filter{get;}
 		Vector3[] vertexs{get;}
+		Vector3[] normals{get;}
 		int[] vertexorder{get;}
 		public SlimeRendering(SlimeSticky parent, MeshFilter filter){
 			Parent = parent;
 			Filter = filter;
 			vertexs = new Vector3[Parent.VertexCount + 2];
+			normals = new Vector3[Parent.VertexCount + 2];
 			vertexorder = new int[3 * Parent.VertexCount];
 			ParallelMap.IndexedParallelAction(i => {
 				vertexorder[3 * i    ] = 0;
 				vertexorder[3 * i + 1] = i + 2;
 				vertexorder[3 * i + 2] = i + 1;
 			},Parent.VertexCount);
+		}
+		void NormaslUpdate(){
+			ParallelMap.IndexedParallelAction(i => {
+				if(i == 0)
+					normals[i] = new Vector3(0,0,1);
+				else
+					normals[i] = (vertexs[i] - vertexs[0]).normalized;
+			},normals.Length);
 		}
 		public void Update() {
 			Vector3 origin = Parent.transform.position;
@@ -34,7 +44,7 @@ public class SlimeSticky : MonoBehaviour2D
 			Mesh mesh = new Mesh();
 			mesh.vertices = vertexs;
 			mesh.triangles = vertexorder;
-			mesh.RecalculateNormals();
+			mesh.normals = normals;
 
 			Filter.mesh = mesh;
 		}
