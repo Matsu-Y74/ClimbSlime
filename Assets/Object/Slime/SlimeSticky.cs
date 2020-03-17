@@ -40,6 +40,7 @@ public class SlimeSticky : MonoBehaviour2D
 			SingleMap.IndexedSingleAction(Parent.slimeStickyNode,(n,i)=>
 				vertexs[i + 1] = n.transform.position);
 			ParallelMap.IndexedParallelAction(i => vertexs[i] -= origin,vertexs.Length);
+			NormaslUpdate();
 
 			Mesh mesh = new Mesh();
 			mesh.vertices = vertexs;
