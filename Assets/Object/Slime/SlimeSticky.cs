@@ -10,26 +10,44 @@ public class SlimeSticky : MonoBehaviour2D
 {
 	class SlimeRendering{
 		SlimeSticky Parent{get;}
+		int VertexCount{get;}
 		MeshFilter Filter{get;}
 		Vector3[] vertexs{get;}
 		Vector3[] normals{get;}
 		int[] vertexorder{get;}
+		int nextvertexID(int i){
+			if(i == 0 || i == VertexCount + 1){
+				return i;
+			}
+			else{
+				if(i == VertexCount)
+					return 1;
+				else
+					return i + 1;
+			}
+		}
 		public SlimeRendering(SlimeSticky parent, MeshFilter filter){
 			Parent = parent;
+			VertexCount = Parent.VertexCount;
 			Filter = filter;
-			vertexs = new Vector3[Parent.VertexCount + 2];
-			normals = new Vector3[Parent.VertexCount + 2];
-			vertexorder = new int[3 * Parent.VertexCount];
+			vertexs = new Vector3[VertexCount + 2];
+			normals = new Vector3[VertexCount + 2];
+			vertexorder = new int[6 * VertexCount];
 			ParallelMap.IndexedParallelAction(i => {
-				vertexorder[3 * i    ] = 0;
-				vertexorder[3 * i + 1] = i + 2;
-				vertexorder[3 * i + 2] = i + 1;
-			},Parent.VertexCount);
+				vertexorder[6 * i    ] = 0;
+				vertexorder[6 * i + 1] = i + 1;
+				vertexorder[6 * i + 2] = nextvertexID(i + 1);
+				vertexorder[6 * i + 3] = VertexCount + 1;
+				vertexorder[6 * i + 4] = nextvertexID(i + 1);
+				vertexorder[6 * i + 5] = i + 1;
+			},VertexCount);
 		}
 		void NormaslUpdate(){
 			ParallelMap.IndexedParallelAction(i => {
 				if(i == 0)
 					normals[i] = new Vector3(0,0,1);
+				else if(i == VertexCount + 1)
+					normals[i] = new Vector3(0,0,-1);
 				else
 					normals[i] = (vertexs[i] - vertexs[0]).normalized;
 			},normals.Length);
@@ -37,15 +55,15 @@ public class SlimeSticky : MonoBehaviour2D
 		public void Update() {
 			Vector3 origin = Parent.transform.position;
 			vertexs[0] = origin;
+			vertexs[VertexCount + 1] = origin;
 			SingleMap.IndexedSingleAction(Parent.slimeStickyNode,(n,i)=>
-				vertexs[i + 1] = n.transform.position);
+				vertexs[i + 1] = n.transform.position,VertexCount);
 			ParallelMap.IndexedParallelAction(i => vertexs[i] -= origin,vertexs.Length);
-
+			NormaslUpdate();
 			Mesh mesh = new Mesh();
 			mesh.vertices = vertexs;
 			mesh.triangles = vertexorder;
 			mesh.normals = normals;
-
 			Filter.mesh = mesh;
 		}
 	}
@@ -128,7 +146,6 @@ public class SlimeSticky : MonoBehaviour2D
 		,VertexCount + 1);
 		
 		slimeStickyNode = SingleMap.IndexedSingleFunc(points_hull_Initial,(n,i) => {
-
 			if(i != VertexCount){
 				GameObject obj = GameObject.Instantiate(prefab_SlimeStickyNode,Position2D + n,Quaternion.identity,transform);
 				obj.name = $"{gameObject.name}_SlimeStickyNode{i}";
