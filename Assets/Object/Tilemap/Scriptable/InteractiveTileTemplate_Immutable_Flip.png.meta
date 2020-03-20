@@ -1,0 +1,3557 @@
+fileFormatVersion: 2
+guid: 63303ef127e5e2040be91b5115cca2d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6852643123031162406
+    second: InteractiveTileTemplate_Immutable_Flip_0
+  - first:
+      213: 3986078751979115138
+    second: InteractiveTileTemplate_Immutable_Flip_1
+  - first:
+      213: 6677959039425018261
+    second: InteractiveTileTemplate_Immutable_Flip_2
+  - first:
+      213: -6753090080427992669
+    second: InteractiveTileTemplate_Immutable_Flip_3
+  - first:
+      213: -2125663664643464244
+    second: InteractiveTileTemplate_Immutable_Flip_4
+  - first:
+      213: -6666797506071984053
+    second: InteractiveTileTemplate_Immutable_Flip_5
+  - first:
+      213: -2789686930832687994
+    second: InteractiveTileTemplate_Immutable_Flip_6
+  - first:
+      213: 3066713697682275823
+    second: InteractiveTileTemplate_Immutable_Flip_7
+  - first:
+      213: 5462689388558327100
+    second: InteractiveTileTemplate_Immutable_Flip_8
+  - first:
+      213: 7125331691279184851
+    second: InteractiveTileTemplate_Immutable_Flip_9
+  - first:
+      213: 380442157801087259
+    second: InteractiveTileTemplate_Immutable_Flip_10
+  - first:
+      213: -7177921042827150289
+    second: InteractiveTileTemplate_Immutable_Flip_11
+  - first:
+      213: 6878728993012896317
+    second: InteractiveTileTemplate_Immutable_Flip_12
+  - first:
+      213: -8274692568497048387
+    second: InteractiveTileTemplate_Immutable_Flip_13
+  - first:
+      213: -8045407132571211604
+    second: InteractiveTileTemplate_Immutable_Flip_14
+  - first:
+      213: 2527597368523359541
+    second: InteractiveTileTemplate_Immutable_Flip_15
+  - first:
+      213: 1723101441115165743
+    second: InteractiveTileTemplate_Immutable_Flip_16
+  - first:
+      213: 2292350047232305283
+    second: InteractiveTileTemplate_Immutable_Flip_17
+  - first:
+      213: 2547192521890898562
+    second: InteractiveTileTemplate_Immutable_Flip_18
+  - first:
+      213: 7094508451044280944
+    second: InteractiveTileTemplate_Immutable_Flip_19
+  - first:
+      213: 7449486030935862786
+    second: InteractiveTileTemplate_Immutable_Flip_20
+  - first:
+      213: -6890723755486342894
+    second: InteractiveTileTemplate_Immutable_Flip_21
+  - first:
+      213: -7055565275891430633
+    second: InteractiveTileTemplate_Immutable_Flip_22
+  - first:
+      213: -8537525400171040238
+    second: InteractiveTileTemplate_Immutable_Flip_23
+  - first:
+      213: 899843729300840451
+    second: InteractiveTileTemplate_Immutable_Flip_24
+  - first:
+      213: -5078746877241284563
+    second: InteractiveTileTemplate_Immutable_Flip_25
+  - first:
+      213: 2016685342231646106
+    second: InteractiveTileTemplate_Immutable_Flip_26
+  - first:
+      213: 8943104886738163837
+    second: InteractiveTileTemplate_Immutable_Flip_27
+  - first:
+      213: -3508319785961136780
+    second: InteractiveTileTemplate_Immutable_Flip_28
+  - first:
+      213: 5192119551213761040
+    second: InteractiveTileTemplate_Immutable_Flip_29
+  - first:
+      213: -1041789264722905991
+    second: InteractiveTileTemplate_Immutable_Flip_30
+  - first:
+      213: 4896920886189486111
+    second: InteractiveTileTemplate_Immutable_Flip_31
+  - first:
+      213: -2227061542673360141
+    second: InteractiveTileTemplate_Immutable_Flip_32
+  - first:
+      213: -5420451846346168973
+    second: InteractiveTileTemplate_Immutable_Flip_33
+  - first:
+      213: 8382980640348087469
+    second: InteractiveTileTemplate_Immutable_Flip_34
+  - first:
+      213: -644890202514533767
+    second: InteractiveTileTemplate_Immutable_Flip_35
+  - first:
+      213: -7628282173677406683
+    second: InteractiveTileTemplate_Immutable_Flip_36
+  - first:
+      213: 5136996840615620469
+    second: InteractiveTileTemplate_Immutable_Flip_37
+  - first:
+      213: 2889506775158504457
+    second: InteractiveTileTemplate_Immutable_Flip_38
+  - first:
+      213: -2179398514886815857
+    second: InteractiveTileTemplate_Immutable_Flip_39
+  - first:
+      213: 4857333951985152966
+    second: InteractiveTileTemplate_Immutable_Flip_40
+  - first:
+      213: -8189025764528363408
+    second: InteractiveTileTemplate_Immutable_Flip_41
+  - first:
+      213: -9061937001599507589
+    second: InteractiveTileTemplate_Immutable_Flip_42
+  - first:
+      213: -4739208973361559654
+    second: InteractiveTileTemplate_Immutable_Flip_43
+  - first:
+      213: 8652229474243304650
+    second: InteractiveTileTemplate_Immutable_Flip_44
+  - first:
+      213: -2961434397871129126
+    second: InteractiveTileTemplate_Immutable_Flip_45
+  - first:
+      213: -9069795238198904077
+    second: InteractiveTileTemplate_Immutable_Flip_46
+  - first:
+      213: 3012288426052244654
+    second: InteractiveTileTemplate_Immutable_Flip_47
+  - first:
+      213: 6409906312127056739
+    second: InteractiveTileTemplate_Immutable_Flip_48
+  - first:
+      213: 7735804679277711487
+    second: InteractiveTileTemplate_Immutable_Flip_49
+  - first:
+      213: 8728549962872403837
+    second: InteractiveTileTemplate_Immutable_Flip_50
+  - first:
+      213: -7105896840049196636
+    second: InteractiveTileTemplate_Immutable_Flip_51
+  - first:
+      213: 1540763226023292584
+    second: InteractiveTileTemplate_Immutable_Flip_52
+  - first:
+      213: -7884173012630371567
+    second: InteractiveTileTemplate_Immutable_Flip_53
+  - first:
+      213: 8145482745722803355
+    second: InteractiveTileTemplate_Immutable_Flip_54
+  - first:
+      213: 293828606406875008
+    second: InteractiveTileTemplate_Immutable_Flip_55
+  - first:
+      213: -5331879549772925009
+    second: InteractiveTileTemplate_Immutable_Flip_56
+  - first:
+      213: -6028822987440246341
+    second: InteractiveTileTemplate_Immutable_Flip_57
+  - first:
+      213: 481497905408244070
+    second: InteractiveTileTemplate_Immutable_Flip_58
+  - first:
+      213: 6917385427061656885
+    second: InteractiveTileTemplate_Immutable_Flip_59
+  - first:
+      213: 6811783245099146074
+    second: InteractiveTileTemplate_Immutable_Flip_60
+  - first:
+      213: 2503302200785497906
+    second: InteractiveTileTemplate_Immutable_Flip_61
+  - first:
+      213: -4293441617555036617
+    second: InteractiveTileTemplate_Immutable_Flip_62
+  - first:
+      213: -151511545735446174
+    second: InteractiveTileTemplate_Immutable_Flip_63
+  - first:
+      213: 8662933924888415056
+    second: InteractiveTileTemplate_Immutable_Flip_64
+  - first:
+      213: -396615984281021262
+    second: InteractiveTileTemplate_Immutable_Flip_65
+  - first:
+      213: 1885896226780422846
+    second: InteractiveTileTemplate_Immutable_Flip_66
+  - first:
+      213: -7027963977463793640
+    second: InteractiveTileTemplate_Immutable_Flip_67
+  - first:
+      213: -318148421561162523
+    second: InteractiveTileTemplate_Immutable_Flip_68
+  - first:
+      213: 9080487407583416699
+    second: InteractiveTileTemplate_Immutable_Flip_69
+  - first:
+      213: 7969421227515249069
+    second: InteractiveTileTemplate_Immutable_Flip_70
+  - first:
+      213: 1520279510054044978
+    second: InteractiveTileTemplate_Immutable_Flip_71
+  - first:
+      213: 5361411694727295281
+    second: InteractiveTileTemplate_Immutable_Flip_72
+  - first:
+      213: 2369086221506012069
+    second: InteractiveTileTemplate_Immutable_Flip_73
+  - first:
+      213: 7549279416036525906
+    second: InteractiveTileTemplate_Immutable_Flip_74
+  - first:
+      213: 8495383334165395361
+    second: InteractiveTileTemplate_Immutable_Flip_75
+  - first:
+      213: -8490943259504609951
+    second: InteractiveTileTemplate_Immutable_Flip_76
+  - first:
+      213: 4838904176047911403
+    second: InteractiveTileTemplate_Immutable_Flip_77
+  - first:
+      213: -8681849074111019611
+    second: InteractiveTileTemplate_Immutable_Flip_78
+  - first:
+      213: 3366692162784236667
+    second: InteractiveTileTemplate_Immutable_Flip_79
+  - first:
+      213: 5099515952819120931
+    second: InteractiveTileTemplate_Immutable_Flip_80
+  - first:
+      213: -4988699293274991739
+    second: InteractiveTileTemplate_Immutable_Flip_81
+  - first:
+      213: -3755794926266070152
+    second: InteractiveTileTemplate_Immutable_Flip_82
+  - first:
+      213: -4454964910222789813
+    second: InteractiveTileTemplate_Immutable_Flip_83
+  - first:
+      213: -4538147043908673860
+    second: InteractiveTileTemplate_Immutable_Flip_84
+  - first:
+      213: -978964678319400426
+    second: InteractiveTileTemplate_Immutable_Flip_85
+  - first:
+      213: -2402121669740909986
+    second: InteractiveTileTemplate_Immutable_Flip_86
+  - first:
+      213: 1786223769323682243
+    second: InteractiveTileTemplate_Immutable_Flip_87
+  - first:
+      213: 1657015027618689680
+    second: InteractiveTileTemplate_Immutable_Flip_88
+  - first:
+      213: 435286837039319886
+    second: InteractiveTileTemplate_Immutable_Flip_89
+  - first:
+      213: 4051522712252095734
+    second: InteractiveTileTemplate_Immutable_Flip_90
+  - first:
+      213: -7284810042989389419
+    second: InteractiveTileTemplate_Immutable_Flip_91
+  - first:
+      213: -8975672541597613911
+    second: InteractiveTileTemplate_Immutable_Flip_92
+  - first:
+      213: -1155594366346045167
+    second: InteractiveTileTemplate_Immutable_Flip_93
+  - first:
+      213: -1564727555543457440
+    second: InteractiveTileTemplate_Immutable_Flip_94
+  - first:
+      213: 1456337139333611532
+    second: InteractiveTileTemplate_Immutable_Flip_95
+  - first:
+      213: -2393246481850941260
+    second: InteractiveTileTemplate_Immutable_Flip_96
+  - first:
+      213: -608375865878925633
+    second: InteractiveTileTemplate_Immutable_Flip_97
+  - first:
+      213: 6206308158371391188
+    second: InteractiveTileTemplate_Immutable_Flip_98
+  - first:
+      213: -7270098155205761771
+    second: InteractiveTileTemplate_Immutable_Flip_99
+  - first:
+      213: 5185756913431741164
+    second: InteractiveTileTemplate_Immutable_Flip_100
+  - first:
+      213: -2502764207014012389
+    second: InteractiveTileTemplate_Immutable_Flip_101
+  - first:
+      213: 4558661986953183694
+    second: InteractiveTileTemplate_Immutable_Flip_102
+  - first:
+      213: -6731223973531535722
+    second: InteractiveTileTemplate_Immutable_Flip_103
+  - first:
+      213: 368054317726298831
+    second: InteractiveTileTemplate_Immutable_Flip_104
+  - first:
+      213: 295865869946200451
+    second: InteractiveTileTemplate_Immutable_Flip_105
+  - first:
+      213: -1298062339634238361
+    second: InteractiveTileTemplate_Immutable_Flip_106
+  - first:
+      213: 7868214944648889669
+    second: InteractiveTileTemplate_Immutable_Flip_107
+  - first:
+      213: 9055957123316911383
+    second: InteractiveTileTemplate_Immutable_Flip_108
+  - first:
+      213: 1157343832265842410
+    second: InteractiveTileTemplate_Immutable_Flip_109
+  - first:
+      213: 9064340946442742568
+    second: InteractiveTileTemplate_Immutable_Flip_110
+  - first:
+      213: 1700429262956584032
+    second: InteractiveTileTemplate_Immutable_Flip_111
+  - first:
+      213: -62482220674752934
+    second: InteractiveTileTemplate_Immutable_Flip_112
+  - first:
+      213: -9022931116883088714
+    second: InteractiveTileTemplate_Immutable_Flip_113
+  - first:
+      213: -6231967644756399169
+    second: InteractiveTileTemplate_Immutable_Flip_114
+  - first:
+      213: -122720248639204719
+    second: InteractiveTileTemplate_Immutable_Flip_115
+  - first:
+      213: -1102277517865145458
+    second: InteractiveTileTemplate_Immutable_Flip_116
+  - first:
+      213: -2660943719597790677
+    second: InteractiveTileTemplate_Immutable_Flip_117
+  - first:
+      213: 5449052769783352622
+    second: InteractiveTileTemplate_Immutable_Flip_118
+  - first:
+      213: -633609864181648411
+    second: InteractiveTileTemplate_Immutable_Flip_119
+  - first:
+      213: 2713576463896145696
+    second: InteractiveTileTemplate_Immutable_Flip_120
+  - first:
+      213: 3782731746271257118
+    second: InteractiveTileTemplate_Immutable_Flip_121
+  - first:
+      213: -8432889662786486923
+    second: InteractiveTileTemplate_Immutable_Flip_122
+  - first:
+      213: -8279614934846371197
+    second: InteractiveTileTemplate_Immutable_Flip_123
+  - first:
+      213: -3630346784336525631
+    second: InteractiveTileTemplate_Immutable_Flip_124
+  - first:
+      213: 7908604001259378848
+    second: InteractiveTileTemplate_Immutable_Flip_125
+  - first:
+      213: -4772245818634113403
+    second: InteractiveTileTemplate_Immutable_Flip_126
+  - first:
+      213: -4918440887258988109
+    second: InteractiveTileTemplate_Immutable_Flip_127
+  - first:
+      213: -1469738511128665377
+    second: InteractiveTileTemplate_Immutable_Flip_128
+  - first:
+      213: -8294291715790778335
+    second: InteractiveTileTemplate_Immutable_Flip_129
+  - first:
+      213: -2041309088724227428
+    second: InteractiveTileTemplate_Immutable_Flip_130
+  - first:
+      213: -6337582163341981363
+    second: InteractiveTileTemplate_Immutable_Flip_131
+  - first:
+      213: -8855325142888210063
+    second: InteractiveTileTemplate_Immutable_Flip_132
+  - first:
+      213: 2294513421512118487
+    second: InteractiveTileTemplate_Immutable_Flip_133
+  - first:
+      213: 2964761172760068007
+    second: InteractiveTileTemplate_Immutable_Flip_134
+  - first:
+      213: 6428171180597099708
+    second: InteractiveTileTemplate_Immutable_Flip_135
+  - first:
+      213: 9144987562655008491
+    second: InteractiveTileTemplate_Immutable_Flip_136
+  - first:
+      213: -2499041113437225672
+    second: InteractiveTileTemplate_Immutable_Flip_137
+  - first:
+      213: 1756537663716323903
+    second: InteractiveTileTemplate_Immutable_Flip_138
+  - first:
+      213: -597688082184712865
+    second: InteractiveTileTemplate_Immutable_Flip_139
+  - first:
+      213: -1810177039519746571
+    second: InteractiveTileTemplate_Immutable_Flip_140
+  - first:
+      213: -3258862707887548983
+    second: InteractiveTileTemplate_Immutable_Flip_141
+  - first:
+      213: 8801813944675143468
+    second: InteractiveTileTemplate_Immutable_Flip_142
+  - first:
+      213: -2867626062190136755
+    second: InteractiveTileTemplate_Immutable_Flip_143
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3bcdc64dd8aa44a86b02f7d20104ff
+      internalID: 6852643123031162406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c308269552c969e4eb27acc398d0be33
+      internalID: 3986078751979115138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdba89713dd2064fbd115c39aeb2bf7
+      internalID: 6677959039425018261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468352bf8ae517f4a9a76eadb044b10b
+      internalID: -6753090080427992669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dc01cd968e35d40ab01c10f196c3b4
+      internalID: -2125663664643464244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c0f6dd9f763eb489f9ace5292e1679
+      internalID: -6666797506071984053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acd2cc1e15657447a86a656cb3aa236
+      internalID: -2789686930832687994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246389741dcdc9a499456ef520551e95
+      internalID: 3066713697682275823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9009bed997fa299409bd654d95995acd
+      internalID: 5462689388558327100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf958e6a059f41947b7ffaad221af743
+      internalID: 7125331691279184851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23071ef76e0fa7f43bebd6de15e82274
+      internalID: 380442157801087259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_11
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd95e6f647e136a4a9c970f113e9206c
+      internalID: -7177921042827150289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_12
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf5e4890ccc6d14094b8c55742513e2
+      internalID: 6878728993012896317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d68d7b5cdef0c40b52cadbf02121d5
+      internalID: -8274692568497048387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf056e5238135848abfff3fd1832192
+      internalID: -8045407132571211604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb278348e8d8c7468e0b5f27072cacb
+      internalID: 2527597368523359541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9913233c36339f34c952a34eea2300a0
+      internalID: 1723101441115165743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb9a3792615cdb4f8b62e6bc1541c0d
+      internalID: 2292350047232305283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa795996aab83c49a70b3df9deb9d69
+      internalID: 2547192521890898562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e121f4dda70dbf489dfc746a9e15631
+      internalID: 7094508451044280944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb717708ef372a439cda54de8c2ab78
+      internalID: 7449486030935862786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31cb04ea919f8147b38bdffde2e4dd3
+      internalID: -6890723755486342894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f32d821ed9384386de257b6ae22c3
+      internalID: -7055565275891430633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54829ebcba2470b4e84fe3c2b2176849
+      internalID: -8537525400171040238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0834df1dabeaf5e488a88d2f4e191c8f
+      internalID: 899843729300840451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_25
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90817a41520d744999e0235cacf45e7
+      internalID: -5078746877241284563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d0f3d8907854843b5902a2fec8f48a
+      internalID: 2016685342231646106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d67d585dc36d740984f4c79c38f5d5
+      internalID: 8943104886738163837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff080f3658c36343b8f47c2001adeac
+      internalID: -3508319785961136780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85749ba15a8eb804f8bc0dc0a138a208
+      internalID: 5192119551213761040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce125775e6cd08f4fb56c98028c964da
+      internalID: -1041789264722905991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f66a58dd72f0d4faf8f6556fde647d
+      internalID: 4896920886189486111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3ef8d43a67da3408684d8fa000db9c
+      internalID: -2227061542673360141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab976742ab5c544488b91d1b77b9e986
+      internalID: -5420451846346168973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b729b330abc5343a5f6d5f717dd38d
+      internalID: 8382980640348087469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af75824ae1e10241b01ab77cf34e500
+      internalID: -644890202514533767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fec0f0978c46384b92a08707f853674
+      internalID: -7628282173677406683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17450106697479640ae5795d6d7c25ec
+      internalID: 5136996840615620469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa902c87ce0e4fa4bbfc8ddcef9c475b
+      internalID: 2889506775158504457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_39
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306af2d7c71c2e64c896f1e2c384cee1
+      internalID: -2179398514886815857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4adda19a70edb40a493a8b994ee92f
+      internalID: 4857333951985152966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_41
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4181f0aeff7fc749867b861b7c70f41
+      internalID: -8189025764528363408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_42
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6ca14140c42bd4e9e200ad9dae7b3e
+      internalID: -9061937001599507589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_43
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658d2e670896b1a4ca22da7d30428982
+      internalID: -4739208973361559654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5153a7a7fd9f2af48be5ba93ed9cc346
+      internalID: 8652229474243304650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c645a4431d1fec948aaa3b615086a8d4
+      internalID: -2961434397871129126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d18f05c1f5e4a04b8ec3ad49818055b
+      internalID: -9069795238198904077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67296fb0c0055d24980dd96fcfcbd866
+      internalID: 3012288426052244654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575d534ade7700f4fbd5ed76673ba0ae
+      internalID: 6409906312127056739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e6e2981f49a0946bcc36d59f05b0c3
+      internalID: 7735804679277711487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6f53b6ec55f8d489817098d7b8ff27
+      internalID: 8728549962872403837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fab33e14a632cc4584df50060c09db0
+      internalID: -7105896840049196636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6ac84d1dc25db43a4f5b6b79e8edd0
+      internalID: 1540763226023292584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_53
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18cc74d1f661bd4c8e73d8ed2d93e81
+      internalID: -7884173012630371567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac61968b14fb60468adcf653c397b42
+      internalID: 8145482745722803355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_55
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9471d6f96380e7d47b139e7d4b164fb0
+      internalID: 293828606406875008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_56
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a8a5ad5ed55cb488e05caeb6742480
+      internalID: -5331879549772925009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_57
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d656cf0575207f74db4c4ff7defc7fd2
+      internalID: -6028822987440246341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_58
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429ece152beb9304998027da83f7115b
+      internalID: 481497905408244070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_59
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46463c28c22a8a4dadfab4f2c95651d
+      internalID: 6917385427061656885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55458d03c9492c74683b19d3ad5c734a
+      internalID: 6811783245099146074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64da55ae240dad24db24980c85abc827
+      internalID: 2503302200785497906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab7e9162fea0e64fa32013bcfa010ec
+      internalID: -4293441617555036617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587f2ab3788ee9f46b2a556e6f00accd
+      internalID: -151511545735446174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ae41406d2a5446910d883a68720df
+      internalID: 8662933924888415056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_65
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8332a6079ee681d4b884bd2b62d51725
+      internalID: -396615984281021262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_66
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154431403a66ef40b49f04e4974b5bb
+      internalID: 1885896226780422846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_67
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8dfe50a3861c64d98fb8e879d449e0
+      internalID: -7027963977463793640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf2f5c0a6c89f442bf85fde5bdde9ee
+      internalID: -318148421561162523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cf2e5b462f7dc4d8005371e2a8e97f
+      internalID: 9080487407583416699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bf83d8fbe0cdb48ac941715ac1bd35
+      internalID: 7969421227515249069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7201e97cabb6a3d4c92e230dfa17ca7c
+      internalID: 1520279510054044978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbc9372f60900e42b37827c672e6448
+      internalID: 5361411694727295281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_73
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4451419d22ed94e987117b9df1e615
+      internalID: 2369086221506012069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c659b0106d26e954fae8df69ad2e4341
+      internalID: 7549279416036525906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37de9f34e9fc1a34ea4d013f71271d7a
+      internalID: 8495383334165395361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_76
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911de271ede5c84ca9d2ed192fbd95a
+      internalID: -8490943259504609951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_77
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecab6fb4af7f6143a2449718a19886f
+      internalID: 4838904176047911403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29553d13a52749b42a5a094a677e4eee
+      internalID: -8681849074111019611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_79
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912dfa3f87176654dad2015c2b14a33b
+      internalID: 3366692162784236667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_80
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cd9002eb0d243468698daba35c219d
+      internalID: 5099515952819120931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_81
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c72b20d3a64f64daa615f43a7382d4
+      internalID: -4988699293274991739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_82
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed863cc1d7f564d418019675436aa13a
+      internalID: -3755794926266070152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630245f5ebbcaef4b878d3b7a817ce5d
+      internalID: -4454964910222789813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35ec57cb02a03e4f88d04503a3b7573
+      internalID: -4538147043908673860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130cdf09855d47b4298ec3ace2fab971
+      internalID: -978964678319400426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3612500c58477964c9c077917e7c6ede
+      internalID: -2402121669740909986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_87
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fa7e2acddd0e84c8ac42cde8c34b97
+      internalID: 1786223769323682243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_88
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4168c2ef09ca9b64ebe85015292807f7
+      internalID: 1657015027618689680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_89
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0570f5364c92344ad1f666c86ead4d
+      internalID: 435286837039319886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f36889421faab428706ccc18a9abc2
+      internalID: 4051522712252095734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ecfc09a488b64f91aed289cd0738e
+      internalID: -7284810042989389419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026b9aa724312754f9cda051c3398bbc
+      internalID: -8975672541597613911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa4f2415ed2c354383e8ba900afe0c7
+      internalID: -1155594366346045167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2b29507e241cc42857e0bbedb0bf96
+      internalID: -1564727555543457440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b30dfb43253b04f80fb8efe1d412a1
+      internalID: 1456337139333611532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25815c00f9b3a2946b0f9f7d2155e9ef
+      internalID: -2393246481850941260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_97
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b6943412170c04c9fe45ffc3316c1f
+      internalID: -608375865878925633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_98
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1eda8ae0d161d4caf10683cc25df8e
+      internalID: 6206308158371391188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_99
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a1d8d3b06ca3440a90719681739b0a
+      internalID: -7270098155205761771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_100
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b969e2d4f970d40a7c058691277ed5
+      internalID: 5185756913431741164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_101
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c575381c3e4ce154db7dc363f762fea6
+      internalID: -2502764207014012389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_102
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b2eb5a9f05e145880065b411a11f3
+      internalID: 4558661986953183694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_103
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c55100db94e67e48a9a8b107ed7cd81
+      internalID: -6731223973531535722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f47b7fa10129fe4c85392ce89c6be41
+      internalID: 368054317726298831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc92e893019b004429ce13a183dedc71
+      internalID: 295865869946200451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0144d578ca2203d4599088343f5acfb4
+      internalID: -1298062339634238361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5700fab4e5145648bcaa0db2e6a6e0c
+      internalID: 7868214944648889669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_108
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd85f950dfba7c149876f8a21d86fcc8
+      internalID: 9055957123316911383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_109
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68be862083c1e784299bfd9fd296e47c
+      internalID: 1157343832265842410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_110
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb819e50504d9bc4cb042c6f8bedb9ee
+      internalID: 9064340946442742568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_111
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1187321d447e13045861718cbfab3fa3
+      internalID: 1700429262956584032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_112
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2fcaeeca30de44fbcc687a0baf2304
+      internalID: -62482220674752934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_113
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44c5b208c9c8d541a9e87cae61c3eff
+      internalID: -9022931116883088714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_114
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59244edfb44363b45a11e99c9eadd7a2
+      internalID: -6231967644756399169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_115
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899cd8b3f6e1d84ab25224ee980fd10
+      internalID: -122720248639204719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_116
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e039fc630269bc45b646ead601ed018
+      internalID: -1102277517865145458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_117
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e29dd9cf5cfd4b98da2199e258f25
+      internalID: -2660943719597790677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bd532675a9a2248a6edfc7be2327cd
+      internalID: 5449052769783352622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_119
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dba74a0ab8adea46a9bfe3259d859e0
+      internalID: -633609864181648411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_120
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e749e3151a5c440ab90ace3c0a114a
+      internalID: 2713576463896145696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_121
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4c44508a6cdb944928cccc88ac8cc2
+      internalID: 3782731746271257118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_122
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21047b3c969d1b04da03a5acaeafc1d1
+      internalID: -8432889662786486923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_123
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc714bebcf17144add8a3c4632bf26
+      internalID: -8279614934846371197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0702313b60cfdd0489bf70b998c3a051
+      internalID: -3630346784336525631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_125
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eddc60783fef3f41b32aa98ae20f72e
+      internalID: 7908604001259378848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_126
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d289a9e4ce35347821d7d4235687d5
+      internalID: -4772245818634113403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_127
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f7555d0de4dc45875dce52c13101c
+      internalID: -4918440887258988109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_128
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8c27f8d961e794397b0dd980a41f9e
+      internalID: -1469738511128665377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_129
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5e9f0cb9532e540854c6bdb051b198
+      internalID: -8294291715790778335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_130
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890fb2d4bf8815045b00a7e455c7635e
+      internalID: -2041309088724227428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_131
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96ff78b12659de428d6a5209661798c
+      internalID: -6337582163341981363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefef19b4ec8b7f4daab07bc049f885a
+      internalID: -8855325142888210063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_133
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6665b7c8cfb3a4789ffa84b1cf58d6
+      internalID: 2294513421512118487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_134
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18731af77ac9b3428dcad211a21d824
+      internalID: 2964761172760068007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_135
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85660cc73d743bc4b8647edb1695e74e
+      internalID: 6428171180597099708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_136
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea9985e9cb5bfa4b8ffb91dee83697b
+      internalID: 9144987562655008491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_137
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9692ed9c8be32c24abe7e18f11f07b2b
+      internalID: -2499041113437225672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3127372b96e4144bd119adaca26108
+      internalID: 1756537663716323903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4b0584fe0f5014dac237f43b1c3c21
+      internalID: -597688082184712865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8677f9c55ad4954882cbab8a71a7935
+      internalID: -1810177039519746571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca87b8df52b71c4478a7e28a3735fe6d
+      internalID: -3258862707887548983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_142
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c71ea62f3afa34991223c67e1808c0
+      internalID: 8801813944675143468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Flip_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ada8be93be7b64891b254e50eaf2b6
+      internalID: -2867626062190136755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0f8848b7f5357fb45882a3481fa22769
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

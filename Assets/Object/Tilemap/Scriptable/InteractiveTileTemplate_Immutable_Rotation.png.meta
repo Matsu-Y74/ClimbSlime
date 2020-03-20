@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 904f28cc2d3320b498570fa8f2e2d272
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4884512919739607519
+    second: InteractiveTileTemplate_Immutable_Rotation_0
+  - first:
+      213: -693853433274354858
+    second: InteractiveTileTemplate_Immutable_Rotation_1
+  - first:
+      213: 5042243281828006001
+    second: InteractiveTileTemplate_Immutable_Rotation_2
+  - first:
+      213: -1299198460888803017
+    second: InteractiveTileTemplate_Immutable_Rotation_3
+  - first:
+      213: -8085603410659791035
+    second: InteractiveTileTemplate_Immutable_Rotation_4
+  - first:
+      213: -11025111830018256
+    second: InteractiveTileTemplate_Immutable_Rotation_5
+  - first:
+      213: 5114891268397451198
+    second: InteractiveTileTemplate_Immutable_Rotation_6
+  - first:
+      213: 3015085774853438303
+    second: InteractiveTileTemplate_Immutable_Rotation_7
+  - first:
+      213: -1834286521430125121
+    second: InteractiveTileTemplate_Immutable_Rotation_8
+  - first:
+      213: -8249371527418237199
+    second: InteractiveTileTemplate_Immutable_Rotation_9
+  - first:
+      213: 703704305285700961
+    second: InteractiveTileTemplate_Immutable_Rotation_10
+  - first:
+      213: 3938648630818773615
+    second: InteractiveTileTemplate_Immutable_Rotation_11
+  - first:
+      213: 7930582101548508364
+    second: InteractiveTileTemplate_Immutable_Rotation_12
+  - first:
+      213: -6489898727260242592
+    second: InteractiveTileTemplate_Immutable_Rotation_13
+  - first:
+      213: -7960856525846617222
+    second: InteractiveTileTemplate_Immutable_Rotation_14
+  - first:
+      213: 5069968158687677298
+    second: InteractiveTileTemplate_Immutable_Rotation_15
+  - first:
+      213: -587293362540924938
+    second: InteractiveTileTemplate_Immutable_Rotation_16
+  - first:
+      213: 7056774407501699475
+    second: InteractiveTileTemplate_Immutable_Rotation_17
+  - first:
+      213: -5122826689879996737
+    second: InteractiveTileTemplate_Immutable_Rotation_18
+  - first:
+      213: -8595522736910275860
+    second: InteractiveTileTemplate_Immutable_Rotation_19
+  - first:
+      213: 2133261678356562410
+    second: InteractiveTileTemplate_Immutable_Rotation_20
+  - first:
+      213: 3438509053022190145
+    second: InteractiveTileTemplate_Immutable_Rotation_21
+  - first:
+      213: 3338771091135378249
+    second: InteractiveTileTemplate_Immutable_Rotation_22
+  - first:
+      213: -8298191506904142852
+    second: InteractiveTileTemplate_Immutable_Rotation_23
+  - first:
+      213: -8482291851450748745
+    second: InteractiveTileTemplate_Immutable_Rotation_24
+  - first:
+      213: -5226805149005123339
+    second: InteractiveTileTemplate_Immutable_Rotation_25
+  - first:
+      213: -6791539085399411675
+    second: InteractiveTileTemplate_Immutable_Rotation_26
+  - first:
+      213: 5694671539347153134
+    second: InteractiveTileTemplate_Immutable_Rotation_27
+  - first:
+      213: 6961531957664642373
+    second: InteractiveTileTemplate_Immutable_Rotation_28
+  - first:
+      213: -5007752937726416406
+    second: InteractiveTileTemplate_Immutable_Rotation_29
+  - first:
+      213: 6368413267625945992
+    second: InteractiveTileTemplate_Immutable_Rotation_30
+  - first:
+      213: 6379735501962839660
+    second: InteractiveTileTemplate_Immutable_Rotation_31
+  - first:
+      213: -5839706558870529442
+    second: InteractiveTileTemplate_Immutable_Rotation_32
+  - first:
+      213: -2505618274921598278
+    second: InteractiveTileTemplate_Immutable_Rotation_33
+  - first:
+      213: 5510585568975204084
+    second: InteractiveTileTemplate_Immutable_Rotation_34
+  - first:
+      213: -6337628020479369536
+    second: InteractiveTileTemplate_Immutable_Rotation_35
+  - first:
+      213: 4686232653814078003
+    second: InteractiveTileTemplate_Immutable_Rotation_36
+  - first:
+      213: 2812079207213870879
+    second: InteractiveTileTemplate_Immutable_Rotation_37
+  - first:
+      213: 1829792166600851813
+    second: InteractiveTileTemplate_Immutable_Rotation_38
+  - first:
+      213: -201257930280754858
+    second: InteractiveTileTemplate_Immutable_Rotation_39
+  - first:
+      213: 8562842848427269630
+    second: InteractiveTileTemplate_Immutable_Rotation_40
+  - first:
+      213: 3109743168014495574
+    second: InteractiveTileTemplate_Immutable_Rotation_41
+  - first:
+      213: -8786309717481024086
+    second: InteractiveTileTemplate_Immutable_Rotation_42
+  - first:
+      213: -6987576957785973658
+    second: InteractiveTileTemplate_Immutable_Rotation_43
+  - first:
+      213: 4350508552215893428
+    second: InteractiveTileTemplate_Immutable_Rotation_44
+  - first:
+      213: -6662846322559058909
+    second: InteractiveTileTemplate_Immutable_Rotation_45
+  - first:
+      213: 408034856078230889
+    second: InteractiveTileTemplate_Immutable_Rotation_46
+  - first:
+      213: 7428293141914636198
+    second: InteractiveTileTemplate_Immutable_Rotation_47
+  - first:
+      213: -5400122096466428341
+    second: InteractiveTileTemplate_Immutable_Rotation_48
+  - first:
+      213: -3214064434763591689
+    second: InteractiveTileTemplate_Immutable_Rotation_49
+  - first:
+      213: 3876174471005541345
+    second: InteractiveTileTemplate_Immutable_Rotation_50
+  - first:
+      213: -6151210154916239572
+    second: InteractiveTileTemplate_Immutable_Rotation_51
+  - first:
+      213: 1293609982124042391
+    second: InteractiveTileTemplate_Immutable_Rotation_52
+  - first:
+      213: 1520132012770151980
+    second: InteractiveTileTemplate_Immutable_Rotation_53
+  - first:
+      213: 8618250934126711576
+    second: InteractiveTileTemplate_Immutable_Rotation_54
+  - first:
+      213: -6038454641216595509
+    second: InteractiveTileTemplate_Immutable_Rotation_55
+  - first:
+      213: 564786284654613315
+    second: InteractiveTileTemplate_Immutable_Rotation_56
+  - first:
+      213: -7936375358447385450
+    second: InteractiveTileTemplate_Immutable_Rotation_57
+  - first:
+      213: 6461072549624568022
+    second: InteractiveTileTemplate_Immutable_Rotation_58
+  - first:
+      213: -8400799804268786943
+    second: InteractiveTileTemplate_Immutable_Rotation_59
+  - first:
+      213: -3206550599545875878
+    second: InteractiveTileTemplate_Immutable_Rotation_60
+  - first:
+      213: -5802275312829265274
+    second: InteractiveTileTemplate_Immutable_Rotation_61
+  - first:
+      213: 2539120482769001604
+    second: InteractiveTileTemplate_Immutable_Rotation_62
+  - first:
+      213: -813518494099517218
+    second: InteractiveTileTemplate_Immutable_Rotation_63
+  - first:
+      213: -2545904257750602118
+    second: InteractiveTileTemplate_Immutable_Rotation_64
+  - first:
+      213: -8964464302948404105
+    second: InteractiveTileTemplate_Immutable_Rotation_65
+  - first:
+      213: 8157972090062275933
+    second: InteractiveTileTemplate_Immutable_Rotation_66
+  - first:
+      213: -1600177754319673867
+    second: InteractiveTileTemplate_Immutable_Rotation_67
+  - first:
+      213: -755326159906981142
+    second: InteractiveTileTemplate_Immutable_Rotation_68
+  - first:
+      213: 4791350771160187890
+    second: InteractiveTileTemplate_Immutable_Rotation_69
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14627d4914ebcfd4b96090ef8d3a48f6
+      internalID: -4884512919739607519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566c0af14d6e05d469e2acf49005a44f
+      internalID: -693853433274354858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4761e889dcf514fa330e50717e9463
+      internalID: 5042243281828006001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908c0652797b877408c0c7e89a324eba
+      internalID: -1299198460888803017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308f1d2d13e1d154088b210e219236f8
+      internalID: -8085603410659791035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8628ed726495c0e47982e29ee3b73bbc
+      internalID: -11025111830018256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e559dcbf113e94d9e9894e48140024
+      internalID: 5114891268397451198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a22ec187d83d84cb619593cdf3cb6d
+      internalID: 3015085774853438303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c00713f94018ee479512130197f725a
+      internalID: -1834286521430125121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87d64a074dc6ca4bbb7031bfe3341e0
+      internalID: -8249371527418237199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47396854aba8fcf44924270682b4327b
+      internalID: 703704305285700961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ee3cb70e509264bb1f44a6c1c9c9cf
+      internalID: 3938648630818773615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644437cad4ae8f54b8a759e2180aed55
+      internalID: 7930582101548508364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f05205d5da0e4ca049162585b20e8
+      internalID: -6489898727260242592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6e99b50c6ae124cb39eda2975fd499
+      internalID: -7960856525846617222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20254adddfcd8fe4a9ea6d32d4d023ce
+      internalID: 5069968158687677298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b614885759a8bcb44a412e46aa2f3003
+      internalID: -587293362540924938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1eb8b859703a499fa416dab519153
+      internalID: 7056774407501699475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086b3bc2fb8569f49b440e159df04601
+      internalID: -5122826689879996737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38d2c415d37c084cbf4cb0a18f6d261
+      internalID: -8595522736910275860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa07c2cc133fe2949a3fee13701bfd37
+      internalID: 2133261678356562410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_21
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729d24460b694634289a28167340faee
+      internalID: 3438509053022190145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_22
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170ebc3b87d65b345be05e86cbd23934
+      internalID: 3338771091135378249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66fca1a4a25e2644afce8042200cb11
+      internalID: -8298191506904142852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dece85ed173968443a9e18cc25c678c7
+      internalID: -8482291851450748745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4850a53c173f5e42adaa4d56544fd0e
+      internalID: -5226805149005123339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8e28b903c59004faea1aa7c0746331
+      internalID: -6791539085399411675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48837f251d5c004ca0d40fcf6499fb1
+      internalID: 5694671539347153134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664ed9dd2c844c54a8cd79d0b5c40064
+      internalID: 6961531957664642373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d84dba9a0d6de4459b4575260c7ab5d
+      internalID: -5007752937726416406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64538adfe2ceac45b7900ca22a91e56
+      internalID: 6368413267625945992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3161088a8a7887c44926a94debabb9d9
+      internalID: 6379735501962839660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_32
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38baa11971d02744493513347c96ab49
+      internalID: -5839706558870529442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b930daa35aa0d4fa6883eac7478301
+      internalID: -2505618274921598278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e122293097db8429d5c28a15f8d42c
+      internalID: 5510585568975204084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aed0f69e00ebe4ea59125d53414a2d
+      internalID: -6337628020479369536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7ca46fccc46da468060257aadeb6d4
+      internalID: 4686232653814078003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3269f03ff73968c4eb3085bf37d1b3d7
+      internalID: 2812079207213870879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e385ef7083f7045bdeb73fcf8052d8
+      internalID: 1829792166600851813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ced83bd37864cf45bc268c7b21b99da
+      internalID: -201257930280754858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c53e0b9ba9b7884d808017d93234f3b
+      internalID: 8562842848427269630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5896fc065db694b8e9e18215629dab
+      internalID: 3109743168014495574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_42
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd56f0aec182efa41993813bdcccef51
+      internalID: -8786309717481024086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9947611f82c2942a5bc23a9b8ba60b
+      internalID: -6987576957785973658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5af765b9e2f094f9eb67c28a978232
+      internalID: 4350508552215893428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa7e2c5e557f954cb15a7ff224cbac1
+      internalID: -6662846322559058909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5006d465dedf7c347a9e2363a30898ce
+      internalID: 408034856078230889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1873dd7ecaab0aa4893d96851a9700a0
+      internalID: 7428293141914636198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_48
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0f781e47a652f419a8daca92c83d88
+      internalID: -5400122096466428341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bf172e822e95d4db770adf1b9df1f2
+      internalID: -3214064434763591689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259e838d41d6a6e4f9b92e2b0b7bbca1
+      internalID: 3876174471005541345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_51
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905ee1ee715733648a3b4c0314480c8b
+      internalID: -6151210154916239572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_52
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350c9494e57ea24bb27ca240c7a8ef4
+      internalID: 1293609982124042391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e6a7b00cef7749ad9cf7027227393
+      internalID: 1520132012770151980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_54
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a4d964fe30ae54589eccd9e6f9141c
+      internalID: 8618250934126711576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca750b74e4b4a49907f3f6f670c1d6
+      internalID: -6038454641216595509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_56
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30722622e8866074ea9d84bfc0313ec7
+      internalID: 564786284654613315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef161a18d034ef42addb96c6fec1928
+      internalID: -7936375358447385450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c134f807317d6458d574a6115d7faa
+      internalID: 6461072549624568022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dcdc05989bcd947a049f11558771c1
+      internalID: -8400799804268786943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_60
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d89fd5441dfd8747b8d08155dbf56dd
+      internalID: -3206550599545875878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_61
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4c5588bbccb4b41b0d3617740ae9ab
+      internalID: -5802275312829265274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb8036eec545a24e8ac8bc66a6e12e1
+      internalID: 2539120482769001604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0e3dcc08e338446ad9294821bc2056
+      internalID: -813518494099517218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_64
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645aeff35299d1d47a591fd13568fdb2
+      internalID: -2545904257750602118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_65
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b082401dc0dcc45aa739260b8d4275
+      internalID: -8964464302948404105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cd9cfb2d01534459d0a20fabd77fa1
+      internalID: 8157972090062275933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_67
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b258ce69651c14dae7c91ed9ced744
+      internalID: -1600177754319673867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_68
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef3feea4cdfce44bd73bfadb05a6f9
+      internalID: -755326159906981142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractiveTileTemplate_Immutable_Rotation_69
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abc941103c8dc2458a1fdc03ebc5f67
+      internalID: 4791350771160187890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9f19e1c05464d5a428cfc9f9fbc77f84
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
