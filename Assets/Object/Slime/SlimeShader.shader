@@ -19,9 +19,9 @@ Shader "Custom/SlimeShader" {
 		};
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
-			o.Albedo = fixed4(_BaseColor.rgb, 1);
-			float alpha = 1 - (abs(dot(IN.viewDir, IN.worldNormal)));
-			o.Alpha = _BaseColor.a * alpha;
+			o.Albedo = _BaseColor;
+			float alpha = (1 - (abs(dot(IN.viewDir, IN.worldNormal)))) * 0.5f;
+			o.Alpha = _BaseColor.a * alpha + 0.5f;
 		}
 		ENDCG
 	}
